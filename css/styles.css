@@ -19,21 +19,21 @@ body {
 
 .section3 {background: #ec6b56;}
 
-.section4 {background: url(skyline-new.jpg) no-repeat center center;
+.section4 {background: url(assets/skyline-new.jpg) no-repeat center center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   height: 440px;}
 
-  .section5 {background: url(people.jpg) no-repeat center center;
+  .section5 {background: url(assets/people.jpg) no-repeat center center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   height: 440px;}
 
-  .section6 {background: url(skyline-header.jpg) no-repeat center center fixed;
+  .section6 {background: url(assets/skyline-header.jpg) no-repeat center center fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
