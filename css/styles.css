@@ -56,6 +56,8 @@ body {
   margin-left: auto;
 }
 
+.pull-left{text-align: left;}
+.pull-right{text-align: right;}
 
 h1 {font-size: 4.5em;
 	color: #e3e3e3;
@@ -63,9 +65,6 @@ h1 {font-size: 4.5em;
 	margin-bottom: 0px;
 
 }
-
-.pull-left{text-align: left;}
-.pull-right{text-align: right;}
 
 h2 {font-size: 36px;
 	color: #e3e3e3;
@@ -82,20 +81,6 @@ a {font-size: 20px;
 	text-decoration: none;}
 
 a:hover {opacity: .7;}
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  width: 100%;
-}
-
-img.logo {
-	margin: 45px 0 0 0;
-	width: 150px; 
-	}
 
 ul.nav {
 	margin: 50px 0 0 0;
@@ -177,6 +162,15 @@ a.section6-btn {
 	text-decoration: none;
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
 table.hero {
 	width: 870px;
 	padding-top: 0px;
@@ -206,9 +200,16 @@ table.donate {
 	padding: 15px;
 	background: #50565c;
 	margin-bottom: 0;
-	margin-top: 0;}
+	margin-top: 0;
+	border-radius: 6px;
+}
 
 p.donate {color: #2e3236 !important;}
+
+img.logo {
+	margin: 45px 0 0 0;
+	width: 150px; 
+	}
 
 img.circle {
 	width: 180px;
@@ -228,3 +229,5 @@ input {font-size: 20px;
 
 form {margin-right: auto;
   margin-left: auto;}
+
+.group {background: #2980b9 url(assets/macbook-air.jpg) repeat 0 0;}
