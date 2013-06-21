@@ -672,6 +672,7 @@ p.description+p.description {
 	#stock-img {
 		width: 25px;
 		height: 25px;
+		margin: 1rem;
 		}
 	
 	article>h1 {
