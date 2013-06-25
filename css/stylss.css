@@ -786,11 +786,13 @@ p.description+p.description {
 		-webkit-animation-name: none;
 	-moz-animation-name: none;
 	-o-animation-name: none;
-	animation-name: none;
+	animation-name: none;}
+	
+
 }
 
-.grids {max-width: 800px;
-		margin: auto;}
+.grids {max-width: 800px !important;
+		margin: auto !important;}
 
 .video-container { position: relative; /* keeps the aspect ratio */ padding-bottom: 56.25%; /* fine tunes the video positioning */ padding-top: 60px; overflow: hidden;
     }
@@ -799,6 +801,8 @@ p.description+p.description {
 .video-container object,
 .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     }
+
+ 
 
 /*
 
