@@ -781,6 +781,12 @@ p.description+p.description {
 		}
 
 	p.description {text-align:left;}
+
+	.fadeInUpBig {
+		-webkit-animation-name: none;
+	-moz-animation-name: none;
+	-o-animation-name: none;
+	animation-name: none;
 }
 
 .grids {max-width: 800px;
