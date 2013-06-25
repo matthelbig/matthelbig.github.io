@@ -12,7 +12,7 @@ html {
 	}
 
 body {
-	font-size: 19px;
+	font-size: 21px;
 	margin: 0;
 	text-rendering: optimizelegibility;
 	padding: 1rem 0 0 0;
@@ -157,6 +157,8 @@ h1 {
 	line-height: 110%;
 	-webkit-font-smoothing: antialiased;
 	letter-spacing: -1px;
+	font-family: "Helvetica Neue",Helvetica,"pragmatica-web",Arial,sans-serif;
+	font-weight: 700;
 	}
 
 h2, h3, h4 {
@@ -575,8 +577,8 @@ p.description {
 	}
 	
 div.row {
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
 	}
 	
 div.row img {
@@ -683,7 +685,6 @@ p.description+p.description {
 		}
 
 }
-
 
 @media screen and (max-width:600px) {
 	html {
