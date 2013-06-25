@@ -784,7 +784,8 @@ p.description+p.description {
 		}
 }
 
-.photoset-grid-custom {max-width: 800px;}
+.grids {max-width: 800px;
+		margin: auto;}
 
 /*
 
