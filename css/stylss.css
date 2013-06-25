@@ -12,13 +12,13 @@ html {
 	}
 
 body {
-	font-size: 18px;
+	font-size: 19px;
 	margin: 0;
 	text-rendering: optimizelegibility;
 	padding: 1rem 0 0 0;
 	background-color: #fefefe;
-	font-family: "Proxima Nova Regular", 'Georgia', serif;
-	line-height: 1.45;
+	font-family: Georgia,Times,"Times New Roman",serif;
+	line-height: 29px;
 	color: #222;
 	border: 12px solid rgba(0, 0, 0, .8);
 	}
