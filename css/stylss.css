@@ -17,7 +17,7 @@ body {
 	text-rendering: optimizelegibility;
 	padding: 1rem 0 0 0;
 	background-color: #fefefe;
-	font-family: "Proxima Nova Regular", 'Helvetica', serif;
+	font-family: "Proxima Nova Regular", 'Georgia', serif;
 	line-height: 1.45;
 	color: #222;
 	border: 12px solid rgba(0, 0, 0, .8);
@@ -782,6 +782,8 @@ p.description+p.description {
 		display: block;
 		margin: 0.5rem auto;
 		}
+
+	p.description {text-align:left;}
 }
 
 .grids {max-width: 800px;
