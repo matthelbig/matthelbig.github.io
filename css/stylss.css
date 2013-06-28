@@ -219,6 +219,8 @@ blockquote {
 	font-size: 1rem;
 	}
 
+.pullleft {text-align: left !important;}
+
 div.footnotes {
 	font-size: 0.8rem;
 	}
