@@ -186,6 +186,7 @@ h1:after {
 h2 {
 	font-size: 1.2em;
 	margin-top: 2rem;
+	max-width: 800px;
 }
 
 h3 {
@@ -220,6 +221,9 @@ blockquote {
 	}
 
 .pullleft {text-align: left !important;}
+.aboutTitle {color:rgba(0, 0, 0, 0.4);
+margin-bottom: 0px !important;
+font-size: 1.2em;}
 
 div.footnotes {
 	font-size: 0.8rem;
