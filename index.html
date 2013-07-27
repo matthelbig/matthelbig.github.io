@@ -245,7 +245,7 @@
 
 <script type="text/javascript">
 	
-	$(".scramble").each(function(){el=$(this),el.attr("data-text",el.text())}),$(".scramble").hover(function(){el=$(this),text=el.data("text"),repeat=setInterval(function(){for(chars=[],scramble="",l=0,i=text.length;i>l;l++)chars.push(l);for(chars=_.shuffle(chars),l=0,i=chars.length;i>l;l++)scramble+=text[chars[l]];el.text(scramble)},200)},function(){el=$(this),el.text(el.data("text")),clearInterval(repeat)});
+	$.fn.ready(function(){$(".email").click(function(){$("#mail")[0].play()}),$(".scramble").each(function(){el=$(this),el.attr("data-text",el.text())}),$(".scramble").hover(function(){el=$(this),text=el.data("text"),repeat=setInterval(function(){for(chars=[],scramble="",l=0,i=text.length;i>l;l++)chars.push(l);for(chars=_.shuffle(chars),l=0,i=chars.length;i>l;l++)scramble+=text[chars[l]];el.text(scramble)},200)},function(){el=$(this),el.text(el.data("text")),clearInterval(repeat)}),$(".logo").click(function(){$("body").toggleClass("invert")})});
 
 </script>
 
