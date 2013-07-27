@@ -30,6 +30,7 @@
     <!-- le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/animate-custom.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
 
     <style type="text/css">
       body {
@@ -471,7 +472,7 @@ margin: 20px 70px;}
 <div class="row-fluid marketing">
 <div class="span12">
 
-<img class="animated fadeInUp" src="img/space519/wordpress.jpg">
+<img class="slideRight" src="img/space519/wordpress.jpg">
 
 
 
@@ -521,7 +522,7 @@ space519 is a micro department store located on Chicago’s Magnificent Mile. Th
 <div class="span12">
 
 <div class="space519-iphone">
-<img src="img/space519/space519-iphone5.png">
+<img class="hatch" src="img/space519/space519-iphone5.png">
 </div>
 <br>
 
@@ -648,6 +649,19 @@ space519 is a micro department store located on Chicago’s Magnificent Mile. Th
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+</script>
+
+<script>
+  $(window).scroll(function() {
+    $('#space519-iphone').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("hatch");
+      }
+    });
+  });
 </script>
 
 
