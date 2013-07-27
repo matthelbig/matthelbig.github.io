@@ -71,7 +71,7 @@
            
  <div class="media">
     <div class="media-body">
-    <p class="big slideDown">HELLO</p>
+    <p class="big slideDown scramble">HELLO</p>
     <p class="intro-bio">My name is <span class="name ">Matt Helbig</span>. I work with startups that build great products.
     <br>
     I have a bachelor's degree in Managment from DePaul University.
@@ -240,6 +240,12 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
+</script>
+
+<script type="text/javascript">
+	
+	$(".scramble").each(function(){el=$(this),el.attr("data-text",el.text())}),$(".scramble").hover(function(){el=$(this),text=el.data("text"),repeat=setInterval(function(){for(chars=[],scramble="",l=0,i=text.length;i>l;l++)chars.push(l);for(chars=_.shuffle(chars),l=0,i=chars.length;i>l;l++)scramble+=text[chars[l]];el.text(scramble)},200)},function(){el=$(this),el.text(el.data("text")),clearInterval(repeat)});
 
 </script>
 
