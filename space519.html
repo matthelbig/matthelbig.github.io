@@ -130,7 +130,7 @@
           
           p.project-bio {font-size: 20px;
           line-height: 1.555em;
-          color: #434A54;
+          color: #777777;
           text-align: left;
           margin: auto auto !important;
           }
@@ -253,38 +253,22 @@ h1.top {
 
 .section7 a {color: #999 !important;}
 
-.section8 {background: #7B8791;}
+.section8 {background: #f0f0f0;}
 
 .section10 {background: #000000}
 
 
-.section4 {background: url(img/altbackground.jpg) no-repeat top center;
-  height: 720px;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;}
-
-  .space519-top {background: url(img/space519/space519-map.jpg) no-repeat top center;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
- width: 100%;
-  height: 100%;
-  padding: 0px;}
-
-  .space519-showcase {background: #fff;}
-
-  .mailchimp {background: url(img/scripty.svg) no-repeat 50% 50% #6dc5dc;
-background-size: auto 42px;
-min-height: 200px;
+  .mailchimp-img {background: url(img/scripty.svg) no-repeat 50% 50% #6dc5dc;
+background-size: auto auto;
+min-height: 120px;
 width: 100%;
 -webkit-user-select: none;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
-}}
+}
+
+.mailchimp {background-color: #6dc5dc; padding: 20px 0;}
 
 
   .center {text-align: center !important;}
@@ -293,20 +277,8 @@ user-select: none;
 
   .magic:hover {opacity: .8;}
 
-  
 
-  .pastevent {background: url(img/pastevent.jpg) no-repeat top center;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  height: 215px;}
-
-  .iphone5 {background: url(img/space519/space519-photos.jpg) no-repeat top center;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;}
+  .iphone5 {background-color: #F3F3F3;}
 
   a.landing-btn {
   color: white;
@@ -459,6 +431,8 @@ margin: 20px 70px;}
 
     </style>
 
+    <link href="css/animations.css" rel="stylesheet">
+
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -471,8 +445,7 @@ margin: 20px 70px;}
   <body>
 
 
-
-<div class="space519-top">
+<div class="section8">
 <div class="container-narrow">
 <div class="row-fluid marketing">
 <div class="span12">
@@ -481,40 +454,24 @@ margin: 20px 70px;}
 <div class="jumbotron"><a href="http://www.space519.com/"><img src="img/space519/space519-logo.png" alt="space519"></a></div>
 </div>
 
-</div></div></div></div>
-
-<div class="section8">
-<div class="container-narrow">
-<div class="row-fluid marketing">
-<div class="span12">
-
-<img src="img/space519/wordpress.jpg">
-
-
-
 <div class="media">
     <div class="media-body">
-    <br>
-    <p class="headline">About the project</p>
+
     <p class="project-bio">
 
-space519 is a micro department store located on Chicago’s Magnificent Mile. The shop needed a way to display a variety of new products to their customers weekly. They also needed a way to connect with their customers and suppliers online.</p>
+space519 is a micro department store located on Chicago’s Magnificent Mile. I worked on displaying a variety of new products and connecting with their customers online. <a href="http://www.space519.com/">Check out the live site here.</a></p>
 
-<div class="space519-icon">
+    
+<div class="jumbotron"><img class="slideUp" src="img/space519/wordpress.jpg" alt="space519 website"></div>
+
+ <p class="project-bio">
+
+ I managed their social media across channels that their customer base was active on. Working closely with the owners of space519, I developed targeted promotional content based on social and web analytics.
+</p>
+
+ <div class="space519-icon">
  <img src="img/space519/space519-icons.png">
  </div>
-
-<p class="headline">Social web</p>
-
- <p class="project-bio">
- To better understand their presence online, I used tools to monitor social and web analytics. Using Mailchip we created a weekly email featuring new products and events. Using A/B testing and list segmentation, we built an 1K+ engaged email list that drove traffic to their Wordpress site.<br><br></p>
-
- <p class="headline">Content creation</p>
-
- <p class="project-bio">
-
- I managed their social media across Facebook, Twitter, Instagram, and Pinterest. We focused on social channels that their customer base was active on. Based on these metrics, I worked closely with the owners of space519 to develop targeted content and promotions.
-</p>
 
   </div>
 </div> 
@@ -522,10 +479,22 @@ space519 is a micro department store located on Chicago’s Magnificent Mile. Th
 </div></div></div></div>
 
 
+
 <div class="mailchimp">
 <div class="container-narrow">
 <div class="row-fluid marketing">
-<div class="span12"> 
+<div class="span12">
+
+<div class="mailchimp-img"></div>
+
+<div class="media">
+
+     <div class="media-body">
+    <p class="project-white">Using Mailchip I created a weekly email featuring new products and events. Using A/B testing and list segmentation, I built an 1K+ engaged email list that drove traffic to their Wordpress site.
+</p>
+</div></div>
+
+
 
 </div></div></div></div>
 
@@ -541,8 +510,7 @@ space519 is a micro department store located on Chicago’s Magnificent Mile. Th
 <br>
 
 <div class="media-body">
-    <p class="headline">Product photograpy</p>
-    <p class="project-white">Used an iPhone 5 and Instagram to share photos with customers. Took new product shots with a Canon EOS REBEL T2i and created clean stand-alone images with Photoshop.<br><br>
+    <p class="project-bio"><span style="color:#FE4100;">Photography is inherently a social expereince.</span> I used Instagram to connect with current customers and share brand stories to a broad audience. I also created new product shots with a Canon EOS REBEL T2i and created clean stand-alone images with Photoshop.<br><br>
 </p>
 </div> 
 
