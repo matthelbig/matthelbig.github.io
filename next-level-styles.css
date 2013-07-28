@@ -80,7 +80,8 @@
           line-height: 1.555em;
           color: #fff;
           text-align: left;
-          font-weight: 800;}
+          font-weight: 800;
+        }
 
 
       @media screen and (max-width: 767px) {
@@ -106,13 +107,13 @@
 
 .heavy {font-weight: 800; text-align: center; font-size: 32px !important;}
 
-.center {font-size: 18px !important;}
+.center {font-size: 16px !important;}
 
 .section7 {font-size: 16px !important;}
 
 .social {font-size: 5em !important;}
 
-.intro-bio {text-align: left !important; font-size: 20px !important;}
+.intro-bio {text-align: left !important; font-size: 16px !important; line-height: 1.8 !important;}
 
 .big {font-size: 80px !important; text-align: center !important;}
 
@@ -182,8 +183,6 @@ h1.top {
 
 .section10 {background: #000000}
 
-
-
 .section4 {background: url(img/background.jpg) no-repeat center center;
   background-size: cover;
   -moz-background-size: cover;
@@ -191,18 +190,17 @@ h1.top {
   -o-background-size: cover;
   height: 720px;}
 
-  .section8 {background: #006d62;}
+.section8 {background: #006d62;}
 
 
-  .center {text-align: center !important;}
+.center {text-align: center !important;}
 
-  .limit{ max-width: 200px;}
+.limit{ max-width: 200px;}
 
-  .magic:hover {opacity: .8;}
+.magic:hover {opacity: .8;}
 
   
-
-  .pastevent {background: url(img/pastevent.jpg) no-repeat top center;
+.pastevent {background: url(img/pastevent.jpg) no-repeat top center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -342,4 +340,3 @@ margin: 20px 70px;}
 
 .TEDx {max-width: 500px; text-align: center; margin: 40px auto auto auto;}
 
-.skrollr-body {position: fixed;}
