@@ -251,7 +251,7 @@ h1.top {
   text-decoration: none;
 }
 
-.email-btn:hover {border: #fff solid 2px; text-decoration: none;}
+.email-btn:hover {border: #fff solid 2px; text-decoration: none; color: #fff;}
 
 .heavy {font-weight: 800; text-align: center; font-size: 52px;}
 
