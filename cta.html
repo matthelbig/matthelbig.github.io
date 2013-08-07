@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link href="css/animations.css" rel="stylesheet">
+  <style type="text/css">
+  html {height:100%;}
+    body {
+      background-color: #b3ddf2;
+      height: 100%; 
+      margin: 0;
+      padding: 0;
+    }
+
+
+      .taco {
+        margin: 0 auto;
+        max-width: 200px;
+        padding-top: 10%;
+      }
+
+      .taco img {max-width: 200px;}
+
+      .text{
+        margin: 30px auto;
+        text-align: center;
+        font: 500 40px Helvetica, Arial, Sans-serif;
+        color: #fff;
+        line-height: 1.7;
+        text-transform: lowercase;
+      }
+
+      .text a { 
+        text-decoration: none;
+        color:#fff;
+        padding-bottom:4px;
+        border-bottom: 5px solid #fff;
+      }
+
+      .taco-logo {
+        margin: 0 auto;
+        padding-top: 5%;
+        max-width: 60px;
+      }
+
+      .taco-logo img {max-width: 60px;}
+
+        a.landing-btn {
+        color: white;
+        font-size: 18px;
+        background-color: #0078c1;
+        padding: 15px 30px;
+        margin: 40px 0px;
+        border: none;
+        border-radius: 6px;
+        text-decoration: none;
+        -webkit-box-shadow: 0 6px 0 0 #00598e;
+        -moz-box-shadow: 0 6px 0 0 #00598e;
+        box-shadow: 0 6px 0 0 #00598e;
+        -webkit-transition: background-color 0.15s ease-in-out;
+        -moz-transition: background-color 0.15s ease-in-out;
+        -o-transition: background-color 0.15s ease-in-out;
+        transition: background-color 0.15s ease-in-out;
+      }
+
+      .landing-btn:hover {background-color: #5DADE2;}
+
+      .button {
+        text-align: center;
+        margin: 0 auto;
+        font: 500 40px Helvetica, Arial, Sans-serif;
+        text-transform: uppercase;
+      }
+
+      .floating{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 1.5s; 
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0%);  
+  }
+  50% {
+    transform: translateY(8%);  
+  } 
+  100% {
+    transform: translateY(0%);
+  }     
+}
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(0%);  
+  }
+  50% {
+    -webkit-transform: translateY(8%);  
+  } 
+  100% {
+    -webkit-transform: translateY(0%);
+  }     
+}
+
+
+  </style>
+</head>
+<body>
+
+<div class="taco">
+<img class="floating" src="img/taco.png">
+</div>
+
+<div class="text">
+
+<a href="https://twitter.com/Chicagotaco">chicago taco authority</a>
+<br>
+delicious tacos at the push of a button
+<br>
+coming fall 2013
+</div>
+
+<div class="button">
+<a href="" class="landing-btn">TAKE MY MONEY</a>
+</div>
+
+<div class="taco-logo">
+<img src="img/taco-logo.png">
+</div>
+
+
+</body>
+</html>
