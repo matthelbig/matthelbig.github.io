@@ -68,7 +68,7 @@
       p.intro-bio {
           font-size: 1.6em;
           line-height: 1.555em;
-          color: #454648;
+          color: #fff;
           -webkit-transition: all .1s ease-out;
           -moz-transition: all .1s ease-out;
           -o-transition: all .1s ease-out;
@@ -79,7 +79,7 @@
      
       p.big {font-size: 7em;
           line-height: 1.555em;
-          color: #454648;
+          color: #282624;
           text-align: left;
           font-weight: 800;
         }
@@ -183,7 +183,7 @@ h1.top {
 
 .section10 {background: #000000}
 
-.section4 {background-color: #E3E3E5;
+.section4 {background-color: #deddd8;
   height: 720px;}
 
 .section8 {background: #006d62;}
