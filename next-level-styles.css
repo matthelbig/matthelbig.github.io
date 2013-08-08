@@ -120,7 +120,7 @@
 
 .jumbotron {margin: 10px 20px !important;}
 
-.media h1 {font-size: 2em !important;}
+.media h1 {font-size: 2em !important; line-height: 1.5em !important;}
 
 .icon {max-width: 250px !important;}
 
