@@ -330,6 +330,6 @@ margin: 20px 70px;}
 
 .TEDx {max-width: 500px; text-align: center; margin: 40px auto auto auto;}
 
-.intro-bio a{color:#fff;padding-bottom:3px;border-bottom:1px solid #fff;-webkit-transition:color .1s ease-in-out;-webkit-transition-delay:0;-moz-transition:color .1s ease-in-out 0;-o-transition:color .1s ease-in-out 0;transition:color .1s ease-in-out 0; }
-.intro-bio a:hover{color:#888;border-bottom:1px solid #888}
+.intro-bio a{color:#888;padding-bottom:3px;border-bottom:1px solid #888;-webkit-transition:color .1s ease-in-out;-webkit-transition-delay:0;-moz-transition:color .1s ease-in-out 0;-o-transition:color .1s ease-in-out 0;transition:color .1s ease-in-out 0; }
+.intro-bio a:hover{color:#fff;border-bottom:1px solid #fff}
 
