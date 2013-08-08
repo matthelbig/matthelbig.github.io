@@ -45,10 +45,10 @@
       /* Your browser selection highlight is invalid */
 
       ::selection {
-        background: rgba(255, 213, 108, 0.8); color: #000000;}
+        background: #fff; color: #000000;}
 
       ::-moz-selection {
-        background: rgba(255, 213, 108, 0.8); color: #000000;}
+        background: #fff; color: #000000;}
 
       .footer-white {color: white;}
 
@@ -78,7 +78,7 @@
 
      
       .media h1 {font-size: 4em;
-        line-height: 1.5em;
+        line-height: 1.333em;
           color: #282624;
           text-align: left;
           font-weight: 500;
