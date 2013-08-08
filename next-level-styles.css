@@ -68,7 +68,7 @@
       p.intro-bio {
           font-size: 1.8em;
           line-height: 1.8em;
-          color: #fff;
+          color: #282624;
           -webkit-transition: all .1s ease-out;
           -moz-transition: all .1s ease-out;
           -o-transition: all .1s ease-out;
@@ -77,11 +77,11 @@
       }
 
      
-      .media h1 {font-size: 2.2em;
-        line-height: 1.8em;
-          color: #fff;
+      .media h1 {font-size: 4em;
+        line-height: 1.5em;
+          color: #282624;
           text-align: left;
-          font-weight: 800;
+          font-weight: 500;
         }
 
 
@@ -120,7 +120,7 @@
 
 .jumbotron {margin: 10px 20px !important;}
 
-.media h1 {font-size: 2em !important; line-height: 1.5em !important;}
+.media h1 {font-size: 2em !important; line-height: 1.5em !important; text-align: left !important;}
 
 .icon {max-width: 250px !important;}
 
