@@ -102,7 +102,7 @@
 .span12 {padding: 10px;}
 
 .section4 {
-  height: auto !important;}
+  height: auto !important; padding: auto !important; text-align: center;}
 
 .lander {margin: auto !important;}
 
