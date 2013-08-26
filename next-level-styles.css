@@ -77,12 +77,11 @@
       }
 
      
-      .media h1 {font-size: 3.5em;
+      .media h1 {font-size: 2em;
         line-height: 1.333em;
           color: #282624;
-          text-align: left;
-          font-weight: 600;
-          text-transform: uppercase;
+          text-align: center;
+          font-weight: normal;
         }
 
 
@@ -105,7 +104,7 @@
 .section4 {
   height: auto !important; padding: auto !important; text-align: center;}
 
-.lander {margin: auto !important;}
+.lander {margin: auto auto !important;}
 
 .heavy {font-weight: 800; text-align: center; font-size: 32px !important;}
 
@@ -121,7 +120,7 @@
 
 .jumbotron {margin: 10px 20px !important;}
 
-.media h1 {font-size: 2.5em !important; line-height: 1.5em !important; text-align: center !important;}
+.media h1 {font-size: 32px !important; line-height: 36px !important; text-align: center !important;}
 
 .icon {max-width: 250px !important;}
 
@@ -129,7 +128,9 @@
 
 .blog {max-width: 50px !important;}
 
-.top-text {padding: 20px !important;}
+.top-text {padding: 10px !important;}
+
+.characters {display: none;}
 
 }
 
@@ -258,8 +259,9 @@ h1.top {
           line-height: .5}
 
 .characters {font-family: 'entypo';
-          font-size: 2em ;
-          line-height: .5}
+          font-size: 5em ;
+          line-height: .5;
+          text-align: center; color: #fff; opacity: .4; padding-top: 100px;}
 
 .social a {color: #FFFFFF}
 
@@ -334,6 +336,18 @@ margin: 20px 70px;}
 
 .TEDx {max-width: 500px; text-align: center; margin: 40px auto auto auto;}
 
-.intro-bio a{color:#888;padding-bottom:3px;border-bottom:1px solid #888;-webkit-transition:color .1s ease-in-out;-webkit-transition-delay:0;-moz-transition:color .1s ease-in-out 0;-o-transition:color .1s ease-in-out 0;transition:color .1s ease-in-out 0; }
-.intro-bio a:hover{color:#fff;border-bottom:1px solid #fff}
+a.intro-color {
+  color: #888;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin: 40px 0px;
+  border: #888 solid 3px;
+  border-radius: 6px;
+  text-decoration: none;}
+
+a.intro-color:hover {border: #fff solid 2px; text-decoration: none; color: #fff;}
+
+
+
+
 
