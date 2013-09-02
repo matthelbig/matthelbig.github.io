@@ -77,49 +77,12 @@
       }
 
      
-      .slogan {font-size: 2em;
+      .media h1 {font-size: 2em;
         line-height: 1.333em;
           color: #202020;
           text-align: center;
           font-weight: normal;
-          position: relative;
-  display: block;
-  overflow: hidden; 
-  width: 0em;
-  height: 1.25em;
-  margin: 1em auto;
-  font-size: 2em;
-  line-height: 1.5em;
-  border-right: .125em solid #39F;
-  box-sizing: content-box;
-  animation-name: blink-start, typing, blink-end;
-  animation-duration: 1s, 1s, 1s;
-  animation-timing-function: linear, steps(13, end), linear;
-  animation-delay: 0s, 1s, 2s;
-  animation-iteration-count: 1, 1, infinite;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
         }
-
-        @keyframes typing {
-  from { width: 0em; }
-  to   { width: 8em; }
-}
-
-@keyframes blink-start {
-  from, to { border-color: #39F; }
-  50% { border-color: transparent; }
-}
-
-@keyframes blink-end {
-  from, to { border-color: #39F; }
-  50% { border-color: transparent; }
-}
-
-.slogan span {
-  display: block;
-  width: 8em;
-}
 
 
       @media screen and (max-width: 767px) {
