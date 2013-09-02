@@ -1,20 +1,45 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Julian Garnier - I code stuff.</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <meta name="description" content="I design and code stuff for the web" />
+    <meta name="keywords" content="Julian Garnier, HTML, CSS, JS, Javascript, 3D Chess game, 3D solar System" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:site_name" content="juliangarnier.com" />
+    <meta property="og:title" content="Julian Garnier" />
+    <meta property="og:description" content="I design and code stuff for the web." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.juliangarnier.com" />
+    <meta property="og:image" content="http://juliangarnier.com/img/apple-touch-icon.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="144" />
+    <meta property="og:image:height" content="144" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="canonical" href="http://www.juliangarnier.com" />
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" />
+
+    <script src="js/prefixfree.min.js"></script>
 
 <style type="text/css">
-	
+  
 * { box-sizing: border-box; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; tap-highlight-color:rgba(0,0,0,0); }
+
 body {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: #F0F0F0;
-  font-family: Courier, monospace;
+  font-family: 'Inconsolata', 'courier', monospace;
   font-style: normal;
   font-weight: 100;
   color: #202020;
   font-smoothing: antialiased;
 }
+
 .container {
   position: absolute;
   left: 50%;
@@ -22,9 +47,10 @@ body {
   max-width: 20em;
   width: 100%;
   height: 10em;
-  margin: -5em -10em;
+  margin: -5em 0 0 -10em;
   text-align: center;
 }
+
 a { 
   text-decoration: none;
   color: inherit;
@@ -87,13 +113,14 @@ hr {
   background: #202020;
   margin: 1em auto;
 }
+
 .slogan {
   position: relative;
   display: block;
   overflow: hidden; 
   width: 0em;
   height: 1.25em;
-  margin: 1em auto;
+  margin: .5em auto;
   font-size: 2em;
   line-height: 1.5em;
   border-right: .125em solid #39F;
@@ -109,12 +136,13 @@ hr {
 
 .slogan span {
   display: block;
-  width: 8em;
+  width: 6.5em;
+  height: 1.25em;
 }
 
 @keyframes typing {
   from { width: 0em; }
-  to   { width: 8em; }
+  to   { width: 6.5em; }
 }
 
 @keyframes blink-start {
@@ -126,9 +154,10 @@ hr {
   from, to { border-color: #39F; }
   50% { border-color: transparent; }
 }
+
 .contact {
   position: relative;
-  width: 20em;
+  width: 14em;
   margin: -1em auto 1.5em auto;
 }
 
@@ -137,10 +166,11 @@ hr {
   overflow: hidden;
   opacity: 0;
   width: 2em;
-  line-height: 2em;
-  margin: 0 .20em;
-  color: #555;
-  font-size: 1.5em;
+  height: 2em;
+  margin: 0 .25em;
+  background-image: url("../img/sprite-1x.png");
+  background-repeat: no-repeat;
+  color: transparent;
   transition: background-color .2s ease-in-out;
   border-radius: 50%;
   animation: icons .2s ease-out 0s 1 normal forwards;
@@ -157,22 +187,49 @@ hr {
 .contact a:nth-child(3) { animation-delay: 2.6s; }
 .contact a:nth-child(4) { animation-delay: 2.65s; }
 
-.contact a:hover { color: #39F; }
-	
+.contact a:hover {
+  background-color: #D0D0D0;
+}
+
+.contact a[href*="mailto"]  { background-position:  0px  8px; }
+.contact a[href*="github"]  { background-position: -32px 8px; }
+.contact a[href*="codepen"] { background-position: -64px 8px; }
+.contact a[href*="twitter"] { background-position: -96px 8px; }
+
+@media 
+  (min--moz-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1), 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-device-pixel-ratio: 2) {
+  .contact a {
+    background-image: url("../img/sprite-2x.png");
+    background-size: 128px 16px;
+  }
+}
+  
 </style>
 
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <h1><a href="http://www.juliangarnier.com"><em>J</em>ulian <em>G</em>arnier</a></h1>
+      <p class="slogan"><span>I code stuff.</span></p>​
+      <div class="contact">
+        <a href="http://twitter.com/juliangarnier" target="_blanc">twitter.com/juliangarnier</a>
+        <a href="http://github.com/juliangarnier" target="_blanc">github.com/juliangarnier</a>
+        <a href="http://codepen.io/juliangarnier" target="_blanc">codepen.io/juliangarnier</a>
 
-<div class="container">
-  <h1><a href="http://www.birkof.ro"><em>D</em>aniel <em>S</em>tancu</a></h1>
-  <p class="slogan"><span>I code stuff.</span></p>
-  <div class="contact">
-    <a href="http://twitter.com/birkof" target="_blank"><i class="icon-twitter"></i></a>
-    <a href="http://facebook.com/birkof" target="_blank"><i class="icon-facebook"></i></a>
-    <a href="http://linkedin.com/in/birkof" target="_blank"><i class="icon-linkedin"></i></a>
-    <a href="http://github.com/birkof" target="_blank"><i class="icon-github"></i></a>
-  </div>
-</div>
-
-</body>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37236197-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
 </html>
