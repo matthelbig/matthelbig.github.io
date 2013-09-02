@@ -102,7 +102,7 @@
 .span12 {padding: 10px;}
 
 .section4 {
-  height: auto !important; padding: auto !important; text-align: center;}
+  height: 350px !important; padding: auto !important; text-align: center;}
 
 .lander {margin: auto auto !important;}
 
@@ -189,8 +189,11 @@ h1.top {
 
 .section10 {background: #000000}
 
-.section4 {background-color: #161d20; 
-  height: 720px;}
+.section4 {
+background: url(browser.png) no-repeat bottom center #161d20;
+  height: 720px;
+  background-size: 80%;
+ }
 
 
 .section8 {background: #006d62;}
