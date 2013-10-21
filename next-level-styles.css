@@ -215,6 +215,7 @@ background: url(img/browser.png) no-repeat bottom center #161d20;
   border: none;
   border-radius: 6px;
   text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .landing-btn:hover {background: #2980B9; text-decoration: none;}
@@ -239,6 +240,7 @@ background: url(img/browser.png) no-repeat bottom center #161d20;
   border: rgba(255,255,255,0.4) solid 3px;
   border-radius: 6px;
   text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
   a.back-btn {
