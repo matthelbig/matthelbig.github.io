@@ -102,7 +102,8 @@
 .span12 {padding: 10px;}
 
 .section4 {
-  height: 350px !important; padding: auto !important; text-align: center;}
+  height: 400px !important; padding: auto !important; text-align: center; background: #161d20;}
+
 
 .lander {margin: auto auto !important;}
 
@@ -131,6 +132,7 @@
 .top-text {padding: 10px !important;}
 
 .characters {display: none;}
+
 
 }
 
