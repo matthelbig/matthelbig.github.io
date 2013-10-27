@@ -190,7 +190,7 @@ h1.top {
 .section10 {background: #000000}
 
 .section4 {
-background: url(img/browser.png) no-repeat bottom center fixed #161d20;
+background: url(img/browser.png) no-repeat bottom center #161d20;
   height: 720px;
   background-size: 80%;
  }
@@ -257,7 +257,7 @@ background: url(img/browser.png) no-repeat bottom center fixed #161d20;
 
 .heavy {font-weight: 800; text-align: center; font-size: 52px;}
 
-.lander {margin: 200px auto 0px auto;}
+.lander {margin: 120px auto 0px auto;}
 
 .social {font-family: 'entypo-social';
           font-size: 7em;
