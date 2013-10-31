@@ -227,6 +227,11 @@ background: url(img/tab.png) no-repeat bottom center #161d20;height: 710px;backg
   border: rgba(255,255,255,0.4) solid 3px;
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-transition: all .1s ease-out;
+          -moz-transition: all .1s ease-out;
+          -o-transition: all .1s ease-out;
+          -ms-transition: all .1s ease-out;
+          transition: all .1s ease-out;
 }
 
   a.back-btn {
@@ -335,7 +340,12 @@ a.intro-color {
   padding: 15px 30px;
   margin: 40px 0px;
   background-color: #65c178;
-  text-decoration: none;}
+  text-decoration: none;
+  -webkit-transition: all .1s ease-out;
+          -moz-transition: all .1s ease-out;
+          -o-transition: all .1s ease-out;
+          -ms-transition: all .1s ease-out;
+          transition: all .1s ease-out;}
 
 a.intro-color:hover {border: #fff solid 2px; text-decoration: none; color: #fff;}
 
