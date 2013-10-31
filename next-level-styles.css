@@ -336,6 +336,7 @@ a.intro-color {
   margin: 40px 0px;
   background-color: #27ae60;
   text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-transition: all .1s ease-in-out;
           -moz-transition: all .1s ease-in-out;
           -o-transition: all .1s ease-in-out;
