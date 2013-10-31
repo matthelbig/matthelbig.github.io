@@ -148,7 +148,7 @@
 
   span, h1.top  {font-size: 21px !important; margin: 0px 0px 0px 0px !important; }
 
-    .section, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .map, .pastevent {
+    .section, .section3, .section4, .section5, .section6, .section7, .section8, .map, .pastevent {
   padding: 0px !important;}
 
 .span12 {padding: 10px;}
@@ -165,6 +165,8 @@
 .section7 {font-size: 16px !important;}
 
 .social {font-size: 5em !important;}
+
+.section2 {height: 50px !important;}
 
 .characters {font-size: 5em !important;}
 
@@ -218,7 +220,7 @@ h1.top {
   .scaleup{width: 100%;}
 
 
-  .section, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .map, .pastevent, .section10 {
+  .section, .section3, .section4, .section5, .section6, .section7, .section8, .map, .pastevent, .section10 {
   background: #162126;
   width: 100%;
   height: 100%;
@@ -227,7 +229,7 @@ h1.top {
 
 .section {background: #333a3e;}
 
-.section2 {background: #282828;}
+.section2 {background: rgba(40, 40, 40, 0.75); position: fixed; height: 70px; width: 100%; padding: 0; opacity: }
 
 .map {background: #0084B4;}
 
@@ -432,10 +434,6 @@ margin: 20px 50px;}
   a.back-btn {
   color: #fff;
   font-size: 18px;
-  padding: 15px 30px;
-  margin: 40px 0px;
-  border: rgba(255,255,255,0.4) solid 3px;
-  border-radius: 60px;
   text-decoration: none;
 }
 
@@ -453,6 +451,10 @@ margin: 20px 50px;}
   padding: 2px 4px;
 }
 
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s}.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s}@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0)}}@-moz-keyframes fadeInDown{0%{opacity:0;-moz-transform:translateY(-20px)}100%{opacity:1;-moz-transform:translateY(0)}}@-o-keyframes fadeInDown{0%{opacity:0;-o-transform:translateY(-20px)}100%{opacity:1;-o-transform:translateY(0)}}@keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}.fadeInDown{-webkit-animation-name:fadeInDown;-moz-animation-name:fadeInDown;-o-animation-name:fadeInDown;animation-name:fadeInDown}
+
+
+
     </style>
 
     <link href="css/animations.css" rel="stylesheet">
@@ -467,6 +469,24 @@ margin: 20px 50px;}
   </head>
 
   <body>
+
+  <div class="section2 animated fadeInDown">
+  <div class="container-narrow">
+      <div class="row-fluid marketing">
+        <div class="span12">
+
+        <div class="media">
+    <div class="media-body">
+    <p class="bio center">
+  <a class="back-btn" href="index.html">View more projects</a>
+    </p>
+  </div>
+</div>
+
+
+
+
+</div></div></div></div>
 
   <div class="top-section">
 <div class="container-narrow">
@@ -618,29 +638,6 @@ I helped promote marketing campaigns including pop-up-shops, limited releases, a
 </div>
 
 </div></div></div></div>
-
-    <div class="section2">
-  <div class="container-narrow">
-      <div class="row-fluid marketing">
-        <div class="span12">
-
-        <div class="media">
-    <div class="media-body">
-    <p class="bio center">
-        <br>
-  <a class="back-btn" href="index.html">View more projects</a>
-        <br><br>
-
-    </p>
-  </div>
-</div>
-
-
-
-
-</div></div></div></div>
-
-
 
       </div>
       </div>
