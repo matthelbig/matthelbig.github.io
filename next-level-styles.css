@@ -98,22 +98,11 @@
 
 .span12 {padding: 10px;}
 
-.section1000 {
+.section4 {
   height: 400px !important; padding: auto !important; text-align: center;
   height: 710px;
-
  }
 
-
-   .section4 {background: url(img/scripty.svg) no-repeat 50% 50% #6dc5dc;
-background-size: auto auto;
-min-height: 120px;
-width: 100%;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-}
 
 .lander {margin: auto auto !important;}
 
@@ -199,10 +188,7 @@ h1.top {
 .section10 {background: #000000}
 
 .section4 {
-background: url(img/page.png) no-repeat bottom center #161d20;
-  height: 710px;
-  background-size: 55%;
- }
+background: url(img/page.png) no-repeat bottom center #161d20;height: 710px;background-size: 55%;}
 
 .section8 {background: #006d62;}
 
