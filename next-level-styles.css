@@ -93,15 +93,12 @@
 
   span, h1.top  {font-size: 21px !important; margin: 0px 0px 0px 0px !important; }
 
-    .section, .section2, .section3, .section4, .section5, .section6, .section7, .map, .pastevent {
+.section, .section2, .section3, .section4, .section5, .section6, .section7, .map, .pastevent {
   padding: 0px !important;}
 
 .span12 {padding: 10px;}
 
-.section4 {
-  height: 400px !important; padding: auto !important; text-align: center;background-size: 65% !important;
- }
-
+.section4 {height: 400px !important; padding: auto !important; text-align: center;}
 
 .lander {margin: auto auto !important;}
 
