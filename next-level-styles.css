@@ -117,7 +117,7 @@
 
 .intro-bio {text-align: left !important; font-size: 18px !important; line-height: 1.8 !important;}
 
-.big {font-size: 80px !important; text-align: center !important;}
+.big {font-size: 70px !important; text-align: center !important;}
 
 .jumbotron {margin: 10px 20px !important;}
 
@@ -160,7 +160,6 @@ h1.top {
 
 
   .section, .section2, .section3, .section4, .section5, .section6, .section7, .map, .pastevent, .section10 {
-  background: #162126;
   width: 100%;
   padding: 0px;
 }
