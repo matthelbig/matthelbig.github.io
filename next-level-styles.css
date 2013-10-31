@@ -63,8 +63,6 @@
           text-align: left;
       }
 
-
-
       p.intro-bio {
           font-size: 1.8em;
           line-height: 1.8em;
@@ -75,7 +73,6 @@
           -ms-transition: all .1s ease-out;
           transition: all .1s ease-out;
       }
-
 
       .media h1 {font-size: 2em;
         line-height: 1.333em;
@@ -102,8 +99,10 @@
 .span12 {padding: 10px;}
 
 .section4 {
-  height: 400px !important; padding: auto !important; text-align: center; background: #161d20;}
+  height: 400px !important; padding: auto !important; text-align: center;
+  height: 710px;
 
+ }
 
 .lander {margin: auto auto !important;}
 
@@ -133,7 +132,6 @@
 
 .characters {display: none;}
 
-
 }
 
 /* -- end resposive -- */
@@ -157,7 +155,6 @@ h1.top {
   .dates{font-variant:small-caps;}
 
   .scaleup{width: 100%;}
-
 
   .section, .section2, .section3, .section4, .section5, .section6, .section7, .map, .pastevent, .section10 {
   width: 100%;
@@ -191,14 +188,12 @@ h1.top {
 .section10 {background: #000000}
 
 .section4 {
-background: url(img/browser.png) no-repeat bottom center #161d20;
-  height: 720px;
-  background-size: 80%;
+background: url(img/page.png) no-repeat bottom center #161d20;
+  height: 710px;
+  background-size: 55%;
  }
 
-
 .section8 {background: #006d62;}
-
 
 .center {text-align: center !important;}
 
