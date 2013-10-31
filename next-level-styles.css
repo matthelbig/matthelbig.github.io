@@ -202,7 +202,6 @@ background: url(img/tab.png) no-repeat bottom center #161d20;height: 710px;backg
   padding: 15px 30px;
   margin: 40px 0px;
   border: none;
-  border-radius: 6px;
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -215,7 +214,6 @@ background: url(img/tab.png) no-repeat bottom center #161d20;height: 710px;backg
   background: #2ECC71;
   padding: 15px 30px;
   border: none;
-  border-radius: 6px;
   text-decoration: none;
 }
 
@@ -227,7 +225,6 @@ background: url(img/tab.png) no-repeat bottom center #161d20;height: 710px;backg
   padding: 15px 30px;
   margin: 40px 0px;
   border: rgba(255,255,255,0.4) solid 3px;
-  border-radius: 6px;
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -333,12 +330,11 @@ margin: 20px 70px;}
 .TEDx {max-width: 500px; text-align: center; margin: 40px auto auto auto;}
 
 a.intro-color {
-  color: #888;
+  color: white;
   font-size: 18px;
   padding: 15px 30px;
   margin: 40px 0px;
-  border: #888 solid 3px;
-  border-radius: 6px;
+  background-color: #65c178;
   text-decoration: none;}
 
 a.intro-color:hover {border: #fff solid 2px; text-decoration: none; color: #fff;}
