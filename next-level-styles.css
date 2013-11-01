@@ -113,7 +113,7 @@
 
 .media h1 {font-size: 20px !important; line-height: 32px !important; text-align: center !important; margin: 30px 0 !important;}
 
-.icon {max-width: 250px !important;}
+.icon {max-width: 220px !important;}
 
 .TEDx {max-width: 300px !important;}
 
@@ -324,7 +324,7 @@ margin: 20px 70px;}
 
 .blog a:hover {opacity: .8;}
 
-.icon {max-width: 400px; text-align: center; margin: auto auto;}
+.icon {max-width: 375px; text-align: center; margin: auto auto;}
 
 .TEDx {max-width: 500px; text-align: center; margin: 40px auto auto auto;}
 
