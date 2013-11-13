@@ -245,6 +245,13 @@ user-select: none;
   -webkit-background-size: cover;
   -o-background-size: cover;}
 
+.azadi-top-section {background: url(img/azadi/azadi-hero.jpg) no-repeat top center;
+  height: 300px;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;}
+
 .mailchimp {background-color: #6dc5dc; padding: 20px 0;}
 
 
