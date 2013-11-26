@@ -66,7 +66,7 @@
       p.intro-bio {
           font-size: 1.6em;
           line-height: 1.6em;
-          color: #d5d7dd;
+          color: #6e7280;
       }
 
       .media h1 {font-size: 2em;
@@ -178,9 +178,11 @@ h1.top {
 
 .section10 {background: #000000}
 
-.section4 {background: url(img/tab.png) no-repeat bottom center #161d20;height: 710px;background-size: 55%;}
+.section4 {background: url(img/tab.png) no-repeat bottom center #1f2026;height: 710px;background-size: 55%;}
 
 .section8 {background: #006d62;}
+
+.history {background-color: #161d20;}
 
 .center {text-align: center !important;}
 
@@ -333,7 +335,7 @@ a.intro-color {
   font-size: 18px;
   padding: 15px 30px;
   margin: 40px 0px;
-  background-color: #27ae60;
+  background-color: #2b2c33;
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-transition: all .1s ease-in-out;
