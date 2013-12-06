@@ -22,12 +22,11 @@
         font-size: 72px;
         line-height: 1;
       }
+
       .jumbotron .btn {
         font-size: 21px;
         padding: 14px 24px;
       }
-
-      /* Supporting marketing content */
 
       .marketing p + h2 {
         margin-top: 28px;
@@ -41,8 +40,6 @@
         font-size: 1.6em;
         font-style: italic;
       }
-
-      /* Your browser selection highlight is invalid */
 
       ::selection {
         background: #fff; color: #000000;}
