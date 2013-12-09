@@ -202,7 +202,7 @@ h1.top {
 
 .section {background: #333a3e;}
 
-.headroom {background: rgba(40, 40, 40, 0.75); position: fixed; height: 70px; width: 100%; padding: 0; opacity: }
+.headroom {background: rgba(40, 40, 40, 0.75); position: fixed; max-height: 70px; width: 100%; padding: 0; opacity: }
 
 .map {background: #0084B4;}
 
@@ -389,6 +389,9 @@ margin: 20px 50px;}
 .lightbox {background: #000000;}
 
 .instagram {background: #4E433C !important;}
+
+.header-fix {padding-top: 11px !important;
+    padding-bottom: 10px !important;}
 
 .facebook {background: #3B5998 !important}
 

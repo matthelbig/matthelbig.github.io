@@ -25,7 +25,7 @@
   <body>
 
 
- <div class="section2 animated fadeInDown"><div class="container-narrow"><div class="row-fluid marketing"><div class="span12"><div class="media"><div class="media-body"><p class="bio center"><a class="back-btn" href="http://www.matthelbig.com/">View more projects</a></p></div></div>
+ <header class="headroom animated"><div class="container-narrow"><div class="row-fluid marketing"><div class="span12"><div class="media"><div class="media-body"><p class="bio center"><a class="back-btn" href="http://www.matthelbig.com/">View more projects</a></p></div></header>
 
 </div></div></div></div>
 
@@ -165,6 +165,19 @@ To start a conversation on the issue, I edited two promotional videos that explo
   })();
 
 </script>
+
+<script type="text/javascript" src="headroom.js"></script>
+
+ <script type="text/javascript">
+
+ // grab an element
+var myElement = document.querySelector("header");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(myElement);
+// initialise
+headroom.init();
+</script>
+
 
 
 
