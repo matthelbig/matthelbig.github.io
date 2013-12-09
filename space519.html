@@ -194,6 +194,25 @@ var myElement = document.querySelector("section2");
 var headroom  = new Headroom(myElement);
 // initialise
 headroom.init();
+</script>
+
+<script type="text/javascript">
+
+{
+    // vertical offset in px before element is first unpinned
+    offset : 0,
+    // scroll tolerance in px before state changes
+    tolerance : 0,
+    // css classes to apply
+    classes : {
+        // when element is initialised
+        initial : "headroom",
+        // when scrolling up
+        pinned : "headroom--pinned",
+        // when scrolling down
+        unpinned : "headroom--unpinned"
+    }
+}
 
 </script>
 
