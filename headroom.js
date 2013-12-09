@@ -158,8 +158,8 @@
     tolerance : 0,
     offset: 0,
     classes : {
-      pinned : 'headroom--pinned',
-      unpinned : 'headroom--unpinned',
+      pinned : 'fadeInDown',
+      unpinned : 'fadeInUp',
       initial : 'headroom'
     }
   };
