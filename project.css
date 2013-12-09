@@ -137,7 +137,7 @@
 
 .social {font-size: 5em !important;}
 
-.section2 {height: 50px !important;}
+.header {height: 50px !important;}
 
 .characters {font-size: 5em !important;}
 
@@ -202,7 +202,7 @@ h1.top {
 
 .section {background: #333a3e;}
 
-.section2 {background: rgba(40, 40, 40, 0.75); position: fixed; height: 70px; width: 100%; padding: 0; opacity: }
+.header {background: rgba(40, 40, 40, 0.75); position: fixed; height: 70px; width: 100%; padding: 0; opacity: }
 
 .map {background: #0084B4;}
 
