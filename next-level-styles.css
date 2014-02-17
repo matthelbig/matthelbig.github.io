@@ -66,7 +66,7 @@
           color: #6e7280;
       }
 
-      .media h1 {font-size: 2em;
+      .media h1 {font-size: 1.6em;
         line-height: 1.333em;
           color: #ffffff;
           text-align: center;
@@ -175,7 +175,7 @@ h1.top {
 
 .section10 {background: #000000}
 
-.section4 {background: url(img/tab.png) no-repeat bottom center #1f2026;height: 710px;background-size: 55%;}
+.section4 {background: #1f2026}
 
 .section8 {background: #006d62;}
 
