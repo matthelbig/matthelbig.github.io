@@ -150,7 +150,7 @@ h1.top {
 
 .section {background: #333a3e;}
 
-.section2 {background: url(img/TEDx-back.jpg) no-repeat center center #2a2a2a; background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover}
+.section2 {background-color: #2a2a2a;}
 
 .map {background: #0084B4;}
 
@@ -325,7 +325,7 @@ margin: 20px 70px;}
 
 .icon {max-width: 375px; text-align: center; margin: auto auto;}
 
-.TEDx {max-width: 500px; text-align: center; margin: 40px auto auto auto;}
+.TEDx {max-width: 500px; text-align: center; margin: 40px auto 40px auto;}
 
 a.intro-color {
   color: white;
