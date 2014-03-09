@@ -327,6 +327,10 @@ margin: 20px 70px;}
 
 .TEDx {max-width: 500px; text-align: center; margin: 40px auto 40px auto;}
 
+.top-border {
+  height: 5px;
+  background: linear-gradient(to right, #dc3b44, #4860e1);}
+
 a.intro-color {
   color: white;
   font-size: 18px;
