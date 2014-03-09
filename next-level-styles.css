@@ -325,6 +325,9 @@ margin: 20px 70px;}
 
 .icon {max-width: 375px; text-align: center; margin: auto auto;}
 
+.icon:hover{opacity: .8;}
+.TEDx:hover{opacity: .8;}
+
 .TEDx {max-width: 500px; text-align: center; margin: 40px auto 40px auto;}
 
 .top-border {
