@@ -363,9 +363,6 @@ a.intro-color {
   transition: width 1s;
 }
 
-.pace-inactive {
-  display: none;
-}
 
 a.intro-color:hover {border-color: #27ae60; text-decoration: none; color: #27ae60;}
 
