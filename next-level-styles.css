@@ -70,6 +70,7 @@
         line-height: 1.333em;
           color: #ffffff;
           font-weight: normal;
+          -webkit-animation:fadeUp 800ms ease;-moz-animation:fadeUp 800ms ease;-o-animation:fadeUp 800ms ease;-ms-animation:fadeUp 800ms ease;animation:fadeUp 800ms ease;
         }
 
 
@@ -103,7 +104,7 @@
 
 .intro-bio {text-align: left !important; font-size: 18px !important; line-height: 1.8 !important;}
 
-.big {font-size: 70px !important; text-align: center !important;  -webkit-animation:fadeUp 800ms ease;-moz-animation:fadeUp 800ms ease;-o-animation:fadeUp 800ms ease;-ms-animation:fadeUp 800ms ease;animation:fadeUp 800ms ease;}
+.big {font-size: 70px !important; text-align: center !important;}
 
 .jumbotron {margin: 10px 20px !important;}
 
