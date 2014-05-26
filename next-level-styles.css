@@ -64,6 +64,7 @@
           font-size: 1.6em;
           line-height: 1.6em;
           color: #6e7280;
+          -webkit-animation:fadeUp 900ms ease;-moz-animation:fadeUp 900ms ease;-o-animation:fadeUp 900ms ease;-ms-animation:fadeUp 900ms ease;animation:fadeUp 900ms ease;
       }
 
       .media h1 {font-size: 2.5em;
@@ -260,6 +261,7 @@ h1.top {
     -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
     -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
     box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    -webkit-animation:fadeUp 950ms ease;-moz-animation:fadeUp 950ms ease;-o-animation:fadeUp 950ms ease;-ms-animation:fadeUp 950ms ease;animation:fadeUp 950ms ease;
 }
 
 .new-btn:hover,
