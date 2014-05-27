@@ -190,8 +190,7 @@ h1.top {
 
 .magic:hover {opacity: .8;}
 
-
-  a.landing-btn {
+a.landing-btn {
   color: white;
   font-size: 18px;
   background: #3498DB;
@@ -199,8 +198,7 @@ h1.top {
   margin: 40px 0px;
   border: none;
   text-decoration: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
+  -webkit-tap-highlight-color: rgba(0,0,0,0);}
 
 .landing-btn:hover {background: #2980B9; text-decoration: none;}
 
