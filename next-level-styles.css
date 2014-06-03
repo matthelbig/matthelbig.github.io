@@ -178,13 +178,7 @@ h1.top {
 
 .section10 {background: #000000}
 
-.section4 {background: #1f2026;
-  background: url(img/skyline.jpg) no-repeat top center;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-}
+.section4 {background: #232323;}
 
 .section8 {background: #006d62;}
 
