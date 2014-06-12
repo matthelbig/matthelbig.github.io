@@ -1,0 +1,29 @@
+#logo-main { background: url(../img/rype-arts-logo.gif) no-repeat center top; }
+
+#header { background: url(../img/ra-tile.gif) repeat scroll #3eafc1;}
+
+.about-ryan{ background: url(../img/ryan-putnam.gif) no-repeat center; }
+
+.about-carmen{background: url(../img/carmen-putnam.gif) no-repeat center;}
+
+#email-contact { background: url(../img/email.gif) no-repeat center 15px;}
+
+#twitter-contact {background: url(../img/twitter.gif) no-repeat center top;}
+
+#dribbble-contact { background: url(../img/dribbble.gif) no-repeat center 12px;}
+
+#facebook-contact { background: url(../img/facebook.gif) no-repeat center top; }
+
+h4#amperbranch.portfolio-title {background-image: url(../img/portfolio/amperbranch-thm.gif)}
+h4#vectormill.portfolio-title { background-image: url(../img/portfolio/vectormill-thm.gif);}
+h4#thiswaywest.portfolio-title { background-image: url(../img/portfolio/thiswaywest-thm.gif);}
+h4#bugabooth.portfolio-title { background-image: url(../img/portfolio/bugabooth-thm.gif);}
+h4#vectips.portfolio-title { background-image: url(../img/portfolio/vectips-thm.gif);}
+h4#campcraze.portfolio-title { background-image: url(../img/portfolio/campcraze-thm.gif);}
+h4#pieceable.portfolio-title { background-image: url(../img/portfolio/pieceable-thm.gif);}
+h4#yoga.portfolio-title { background-image: url(../img/portfolio/yoga-thm.gif);}
+h4#bob.portfolio-title { background-image: url(../img/portfolio/bob-thm.gif);}
+h4#help.portfolio-title {background-image: url(../img/portfolio/help-colorado-thm.gif); }
+h4#logos.portfolio-title { background-image: url(../img/portfolio/logos-thm.gif);}
+h4#icons.portfolio-title { background-image: url(../img/portfolio/icons-thm.gif);}
+h4#personal.portfolio-title { background-image: url(../img/portfolio/personal-thm.gif);}

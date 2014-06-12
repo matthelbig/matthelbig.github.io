@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Amperbranch" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="200px" height="210px" viewBox="0 0 200 210" enable-background="new 0 0 200 210" xml:space="preserve">
+<rect x="-44.5" y="-33.5" fill="#2D313C" width="289" height="277"/>
+<circle fill="#6FBCEA" cx="99.892" cy="104.9" r="58"/>
+<g>
+	<g>
+		<line fill="none" stroke="#EA3F3F" stroke-miterlimit="10" x1="6.372" y1="146.08" x2="7.499" y2="145.09"/>
+		
+			<line fill="none" stroke="#EA3F3F" stroke-miterlimit="10" stroke-dasharray="2.9507,2.9507" x1="9.716" y1="143.143" x2="70.675" y2="89.584"/>
+		<polyline fill="none" stroke="#EA3F3F" stroke-miterlimit="10" points="71.783,88.611 72.91,87.621 73.923,88.727 		"/>
+		
+			<line fill="none" stroke="#EA3F3F" stroke-miterlimit="10" stroke-dasharray="3.0877,3.0877" x1="76.008" y1="91.004" x2="95.818" y2="112.638"/>
+		<polyline fill="none" stroke="#EA3F3F" stroke-miterlimit="10" points="96.861,113.776 97.874,114.883 98.649,113.599 		"/>
+		
+			<line fill="none" stroke="#EA3F3F" stroke-miterlimit="10" stroke-dasharray="3.0686,3.0686" x1="100.236" y1="110.973" x2="121.655" y2="75.514"/>
+		<polyline fill="none" stroke="#EA3F3F" stroke-miterlimit="10" points="122.448,74.201 123.224,72.917 124.689,73.236 		"/>
+		
+			<line fill="none" stroke="#EA3F3F" stroke-miterlimit="10" stroke-dasharray="3.0839,3.0839" x1="127.702" y1="73.893" x2="174.406" y2="84.078"/>
+		<polyline fill="none" stroke="#EA3F3F" stroke-miterlimit="10" points="175.912,84.406 177.378,84.726 178.289,83.535 		"/>
+		
+			<line fill="none" stroke="#EA3F3F" stroke-miterlimit="10" stroke-dasharray="3.3467,3.3467" x1="180.322" y1="80.876" x2="191.506" y2="66.256"/>
+		<line fill="none" stroke="#EA3F3F" stroke-miterlimit="10" x1="192.522" y1="64.927" x2="193.434" y2="63.735"/>
+	</g>
+</g>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="99.892" cy="105.067" r="58"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_3_" x="43.5" y="50.5" width="113" height="113"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_4_)">
+			
+				<rect x="71.281" y="136.95" transform="matrix(0.6274 0.7787 -0.7787 0.6274 169.7738 -17.3829)" fill="#28486B" width="63.541" height="63.54"/>
+			
+				<rect x="76.178" y="137.286" transform="matrix(0.7071 0.7071 -0.7071 0.7071 151.1581 -26.8155)" fill="#376E9C" width="63.54" height="63.541"/>
+			
+				<rect x="110.749" y="141.08" transform="matrix(-0.6274 0.7787 -0.7787 -0.6274 366.5354 170.3229)" fill="#132B46" width="63.541" height="63.541"/>
+			
+				<rect x="105.854" y="141.416" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 357.4003 198.3362)" fill="#244262" width="63.541" height="63.542"/>
+			<g>
+				
+					<rect x="43.64" y="129.642" transform="matrix(0.6274 0.7787 -0.7787 0.6274 153.7835 1.4183)" fill="#284668" width="63.539" height="63.54"/>
+				
+					<rect x="48.535" y="129.979" transform="matrix(0.7071 0.7071 -0.7071 0.7071 137.8967 -9.4089)" fill="#315780" width="63.541" height="63.541"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 55.3877 115.6328)" fill="#64A9D2" font-family="'GuilderFree-LightItalic'" font-size="26.4856">EVER UPWARDS</text>
+	<text transform="matrix(1 0 0 1 55.7051 114.6797)" fill="#FFFFFF" font-family="'GuilderFree-LightItalic'" font-size="26.4856">EVER UPWARDS</text>
+</g>
+</svg>
