@@ -1,3 +1,5 @@
+ ol, ul {list-style: none;}
+
 #cd-nav li a {
   color: #D83F38 !important;
   text-decoration: none;
