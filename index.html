@@ -18,6 +18,19 @@
     #header {background: #FFFFFF !important;}
     .hero-unit {padding-bottom:0px !important}
 
+   #particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas{
+    position: absolute;
+    opacity: .2;
+}
+
+#about-section{z-index: 3;
+
     </style>
 
     <!--[if lt IE 9]>
@@ -36,8 +49,7 @@
   </head>
 
   <body>
-
-    <div id="about-section">
+    <div id="about-section"><div id="particles">
      <div class="container">
        <div class="row">
         <div class="span2">
@@ -61,7 +73,7 @@
                 <h2 id="matt-title">Say hello on <a href="http://twitter.com/mtthlbg">Twitter</a> or read a recent blog post on <a href="https://medium.com/philosophy-logic/an-organized-mind-c6624193d521">Medium</a>.</h2>
               </div>
             </div>
-
+            </div>
         </div>
        </div>
        </div>
@@ -128,13 +140,20 @@
           <div class="span1"><a href="http://instagram.com/mtthlbg" id="instagram-contact">Instagram</a></div>
           <div class="span1"><a href="http://linkedin.com/in/matthelbig/" id="linkedin-contact">LinkedIn</a></div>
         </div>
-      </div>
+        </div>
       </div><!--Contact Row -->
     </div><!-- /Container -->
    </footer><!-- /Footer Section -->
 
     <link href="css/next-styles.css" rel="stylesheet">
-   <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+   <link rel="stylesheet" href="css/reset.css">
+    <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
+  <script type='text/javascript' src='jquery.particleground.min.js'></script>
+  <script type='text/javascript' src='js/demo.js'></script>
+
+
+
+   <!-- CSS reset -->
 
    <!--
 
