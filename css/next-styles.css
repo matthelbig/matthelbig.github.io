@@ -642,7 +642,12 @@ a.home-nav {
 .visible-desktop {
     display: none!important;
 }
-}@media (min-width:768px) and (max-width:979px) {
+
+.nav-container{padding-top:30px}
+
+}
+
+@media (min-width:768px) and (max-width:979px) {
     .visible-tablet {
     display: inherit!important;
 }
@@ -655,7 +660,9 @@ a.home-nav {
 .visible-desktop {
     display: none!important;
 }
-}@media (max-width:480px) {
+}
+
+@media (max-width:480px) {
     .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
 }
