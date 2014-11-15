@@ -748,7 +748,7 @@ a h4.portfolio-title {
 }
 .row-fluid [class*=span], [class*=span] {
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .input-large, .input-xlarge, .input-xxlarge, .uneditable-input, input[class*=span], select[class*=span], textarea[class*=span] {
     display: block;
