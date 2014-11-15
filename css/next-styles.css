@@ -21,14 +21,7 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
     display: block;
 }
-audio, canvas, video {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
-}
-audio:not([controls]) {
-    display: none;
-}
+
 html {
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
@@ -69,8 +62,7 @@ button, input, select, textarea {
     vertical-align: middle;
 }
 button, input {
-    *overflow: visible;
-    line-height: normal;
+    overflow: visible;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
@@ -144,7 +136,6 @@ blockquote {
     margin: 0;
     padding: 0 0 10px;
     font: 39px/45px myriad-pro, Helvetica, Arial, sans-serif;
-    :serif;
     font-weight: 300;
     color: #fff;
 }
@@ -158,7 +149,7 @@ blockquote span {
 }
 .row {
     margin-left: -40px;
-    *zoom: 1;
+    zoom: 1;
 }
 .row:after, .row:before {
     display: table;
@@ -223,7 +214,7 @@ blockquote span {
 }
 .row-fluid {
     width: 100%;
-    *zoom: 1;
+    zoom: 1;
 }
 .row-fluid:after, .row-fluid:before {
     display: table;
@@ -272,7 +263,7 @@ blockquote span {
 .container {
     margin-right: auto;
     margin-left: auto;
-    *zoom: 1;
+    zoom: 1;
 }
 .container:after, .container:before {
     display: table;
@@ -283,7 +274,7 @@ blockquote span {
 .container-fluid {
     padding-right: 40px;
     padding-left: 40px;
-    *zoom: 1;
+    zoom: 1;
 }
 .container-fluid:after, .container-fluid:before {
     display: table;
@@ -324,20 +315,24 @@ blockquote span {
 #logo-main a:hover {
     color: #fff;
 }
+
 div.hero-unit h2 {
     font-family: myriad-pro, Helvetica, Arial, sans-serif;
     font-weight: 300;
     margin-top: 25px;
-     color: #ffffff;
-     font-size:  1.em;
+    color: #ffffff;
+    font-size: 1.em;
 }
+
 .hidden {
     display: none;
     visibility: hidden;
 }
+
 .hidden-desktop, .visible-phone, .visible-tablet {
     display: none!important;
 }
+
 h2.section-title {
     text-align: center;
     color: #40b1c4;
@@ -387,8 +382,6 @@ a h4.portfolio-title {
     transition: all .2s ease-in-out;
     margin: 0 auto 30px;
     width: 200px;
-    background-position-x: center;
-    background-position-y: center;
 }
 a h4.portfolio-title span {
     display: block;
