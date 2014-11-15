@@ -760,7 +760,7 @@ a h4.portfolio-title {
     width: auto;
 }
 .span2, .span3, .span4, .span6 {
-    width: 220px;
+    width: 300px !important;
 }
 .span6.offset1 {
     width: 65%;
