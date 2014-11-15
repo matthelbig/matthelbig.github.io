@@ -708,7 +708,9 @@ input[type=checkbox], input[type=radio] {
 a h4.portfolio-title {
     margin-bottom: 60px;
 }
-}@media (max-width:520px) {
+}
+
+@media (max-width:520px) {
     .span2, .span2.offset2, .span3, .span3.offset1, .span4, .span4.offset2, .span6, .span6.offset1 .span2.offset1, .span8 {
     margin-left: auto;
     margin-right: auto;
@@ -717,7 +719,9 @@ a h4.portfolio-title {
 a h4.portfolio-title {
     margin-bottom: 60px;
 }
-}@media (max-width:767px) {
+}
+
+@media (max-width:767px) {
     .navbar-fixed-bottom, .navbar-fixed-top {
     margin-left: -20px;
     margin-right: -20px;
@@ -760,8 +764,11 @@ a h4.portfolio-title {
     width: auto;
 }
 .span2, .span3, .span4, .span6 {
-    width: 300px !important;
+    width: 300px;
 }
+
+.about-matt {width: 300px;}
+
 .span6.offset1 {
     width: 65%;
     float: none;
