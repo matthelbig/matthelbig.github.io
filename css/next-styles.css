@@ -294,8 +294,8 @@ blockquote span {
 .hero-unit {
     margin-right: auto;
     margin-left: auto;
+    padding-top: 10px;
     padding-bottom: 5px;
-    padding-top: 5px;
     text-align: center;
 }
 .hero-unit p {
