@@ -129,6 +129,7 @@ a:hover {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;
+    line-height: 36px;
     font-weight: 300;
     font-style: normal;
 }
