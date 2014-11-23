@@ -290,7 +290,7 @@ blockquote span {
 #header {
     background: #34495E;
 }
-.header-container {box-shadow: 0 2px 5px rgba(0,0,0,0.26);}
+#header-container {box-shadow: 0 2px 5px rgba(0,0,0,0.26);}
 .hero-unit {
     margin-right: auto;
     margin-left: auto;
