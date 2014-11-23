@@ -290,11 +290,12 @@ blockquote span {
 #header {
     background: #34495E;
 }
+.header-container {box-shadow: 0 2px 5px rgba(0,0,0,0.26);}
 .hero-unit {
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 40px;
-    padding-top: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     text-align: center;
 }
 .hero-unit p {
@@ -633,7 +634,7 @@ ul#port-nav li {
     display: inline;
 }
 ul#port-nav li a {
-    padding: 40px 10px 40px 1px;
+    padding: 30px 10px 30px 1px;
 }
 a.home-nav {
     border-style: none;
