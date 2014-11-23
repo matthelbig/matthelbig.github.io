@@ -89,7 +89,10 @@ body {
     margin: 0;
     color: #597379;
     background-color: #fff;
-    font: 14px/20px myriad-pro, Helvetica, Arial, sans-serif;
+    font: 16px 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
 }
 a {
     color: #E2E9EF;
@@ -100,6 +103,11 @@ a {
 }
 a:hover {
     color: #778A97;
+    text-decoration: none;
+}
+
+#portfolio-section-interior a:hover {
+    background-color: #fffea7;
     text-decoration: none;
 }
 #about-section a {
@@ -120,7 +128,7 @@ a:hover {
     text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: myriad-pro, Helvetica, Arial, sans-serif;
+    font-family: 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-style: normal;
 }
@@ -135,7 +143,7 @@ h2.about-name {
 blockquote {
     margin: 0;
     padding: 0 0 10px;
-    font: 39px/45px myriad-pro, Helvetica, Arial, sans-serif;
+    font: 39px/45px 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: #fff;
 }
@@ -292,7 +300,7 @@ blockquote span {
     display: block;
     max-width: 780px;
     padding: 25px;
-    font: 400 25px/40px ff-tisa-web-pro;
+    font: 400 25px/40px 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;;
     margin: 0 auto;
     color: #E2E9EF;
 }
@@ -313,7 +321,7 @@ blockquote span {
 }
 
 div.hero-unit h2 {
-    font-family: myriad-pro, Helvetica, Arial, sans-serif;
+    font-family: 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;
     font-weight: 300;
     margin-top: 25px;
     color: #ffffff;
@@ -519,7 +527,7 @@ ul#contact-social {
 body {
     -webkit-text-size-adjust: 100%}
 #contact-social li a {
-    font-family: kulturista-web, Georgia, Times, sans-serif;
+    font-family: 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;;
     color: #E2E9EF;
     margin-bottom: 20px;
     display: block;
@@ -617,7 +625,7 @@ ul#port-nav {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: myriad-pro, Helvetica, Arial, sans-serif;
+    font-family: 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;;
 }
 ul#port-nav li {
     padding-right: 20px;
