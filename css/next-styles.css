@@ -722,6 +722,7 @@ input[type=checkbox], input[type=radio] {
 a h4.portfolio-title {
     margin-bottom: 60px;
 }
+#social-icons-container {padding-left: 0px !important;}
 }
 
 @media (max-width:520px) {
@@ -730,6 +731,8 @@ a h4.portfolio-title {
     margin-right: auto;
     float: none;
 }
+
+
 a h4.portfolio-title {
     margin-bottom: 60px;
 }
