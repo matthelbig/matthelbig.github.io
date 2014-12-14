@@ -478,11 +478,6 @@ h4.about-title {
     height: 200px;
     text-indent: -9999px;
     background: url(img/matt-helbig.png) center -10px no-repeat;
-     -webkit-animation: fadeUp 500ms ease;
-    -moz-animation: fadeUp 500ms ease;
-    -o-animation: fadeUp 500ms ease;
-    -ms-animation: fadeUp 500ms ease;
-    animation: fadeUp 500ms ease;
 }
 .about-generic {
     text-align: center;
