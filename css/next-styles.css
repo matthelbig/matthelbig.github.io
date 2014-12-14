@@ -290,7 +290,7 @@ blockquote span {
     clear: both;
 }
 #header {
-    background-color: #130D17;
+    background-color: #374147;
 }
 #header-container {}
 .hero-unit {
@@ -515,7 +515,7 @@ h4.about-title {
 }
 footer {
     padding-top: 40px;
-    background-color: #130D17;
+    background-color: #374147;
 }
 footer p {
     color: #E2E9EF;
