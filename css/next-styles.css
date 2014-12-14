@@ -471,7 +471,7 @@ h4.about-title {
     margin-top: 0;
     text-align: center;
 }
-.about-matt {
+#about-matt {
     width: 220px;
     height: 200px;
     text-indent: -9999px;
@@ -784,7 +784,7 @@ a h4.portfolio-title {
     width: 300px;
 }
 
-.about-matt {width: 300px;}
+#about-matt {width: 300px;}
 
 .span6.offset1 {
     width: 65%;
@@ -878,7 +878,7 @@ ul#port-nav li a {
 .span3 {
     width: 233px;
 }
-.about-matt, .span2 {
+#about-matt, .span2 {
     width: 142px;
 }
 .span1 {

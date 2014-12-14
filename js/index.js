@@ -1,5 +1,5 @@
 $(function() {
-    setTimeout('$("#content p").fadeTo("slow", 1.0)', 1000); // 5 second delay on the fade in
+    setTimeout('$("#about-matt").fadeTo("slow", 1.0)', 1000); // 5 second delay on the fade in
 });
 
 
