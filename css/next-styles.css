@@ -106,6 +106,8 @@ a:hover {
     text-decoration: none;
 }
 
+.nav-container{padding-top:30px;}
+
 #portfolio-section-interior a:hover {
     background-color: #fffea7;
     text-decoration: none;
@@ -653,7 +655,7 @@ a.home-nav {
     display: none!important;
 }
 
-.nav-container{padding-top:30px}
+.nav-container{padding-top:30px;}
 
 }
 
