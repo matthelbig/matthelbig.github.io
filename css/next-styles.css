@@ -87,7 +87,7 @@ textarea {
 }
 body {
     margin: 0;
-    color: #1A7DE8;
+    color: #696969;
     background-color: #fff;
     font: 16px 'RobotoDraft','Roboto', Helvetica, Arial, sans-serif;
     line-height: 24px;
@@ -494,7 +494,7 @@ h4.about-title {
     background: #fffeb3;
 }
 #about-section {
-    background: #E2E9EF;
+    background: #1A7DE8;
     background-repeat: repeat-x;
     background-position: 0 0;
     padding-bottom: 0;
