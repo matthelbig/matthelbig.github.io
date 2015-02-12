@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title></title>
+    <!-- the <title> tag shows on email notifications on Android 4.4. -->
+    <style type="text/css">
+      /* ensure that clients don't add any padding or spaces around the email design and allow us to style emails for the entire width of the preview pane */
+      body,
+      #bodyTable {
+      height:100% !important;
+      width:100% !important;
+      margin:0;
+      padding:0;
+      }
+      /* Ensures Webkit- and Windows-based clients don't automatically resize the email text. */
+      body,
+      table,
+      td,
+      p,
+      a,
+      li,
+      blockquote {
+      -ms-text-size-adjust:100%;
+      -webkit-text-size-adjust:100%;
+      }
+      .btn {
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      background: #787878;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      }
+      /* Forces Yahoo! to display emails at full width */
+      .thread-item.expanded .thread-body .body, .msg-body {
+      width: 100% !important;
+      display: block !important;
+      }
+      /* Forces Hotmail to display emails at full width */
+      .ReadMsgBody,
+      .ExternalClass {
+      width: 100%;
+      background-color: #f4f4f4;
+      }
+      /* Forces Hotmail to display normal line spacing. */
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+      line-height:100%;
+      }
+      /* Resolves webkit padding issue. */
+      table {
+      border-spacing:0;
+      }
+      /* Resolves the Outlook 2007, 2010, and Gmail td padding issue, and removes spacing around tables that Outlook adds. */
+      table,
+      td {
+      border-collapse:collapse;
+      mso-table-lspace:0pt;
+      mso-table-rspace:0pt;
+      }
+      /* Corrects the way Internet Explorer renders resized images in emails. */
+      img {
+      -ms-interpolation-mode: bicubic;
+      }
+      /* Ensures images don't have borders or text-decorations applied to them by default. */
+      img,
+      a img {
+      border:0;
+      outline:none;
+      text-decoration:none;
+      }
+      /* Styles Yahoo's auto-sensing link color and border */
+      .yshortcuts a {
+      border-bottom: none !important;
+      }
+      /* Styles the tel URL scheme */
+      a[href^=tel],
+      .mobile_link,
+      .mobile_link a {
+      color:#222222 !important;
+      text-decoration: underline !Important;
+      }
+      /* Media queries for when the viewport is smaller than the default email width but not too narrow. */
+      @media screen and (max-device-width: 600px), screen and (max-width: 600px) {
+      /* Constrains email width for small screens */
+      table[class="email-container"] {
+      width: 100% !important;
+      }
+      /* Constrains tables for small screens */
+      table[class="fluid"] {
+      width: 100% !important;
+      }
+      /* Forces images to resize to full width of their container */
+      img[class="fluid"],
+      img[class="force-col-center"] {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      }
+      /* And centers these ones */
+      img[class="force-col-center"] {
+      margin: auto !important;
+      }
+      /* Forces table cells into rows */
+      td[class="force-col"],
+      td[class="force-col-center"] {
+      display: block !important;
+      width: 100% !important;
+      clear: both;
+      }
+      /* And centers these ones */
+      td[class="force-col-center"] {
+      text-align: center !important;
+      }
+      /* Forces table cells into rows */
+      /* Floats a previously stacked image to the left */
+      img[class="col-3-img-l"] {
+      float: none;
+      margin: 15px;
+      }
+      /* Floats a previously stacked image to the right */
+      img[class="col-3-img-r"] {
+      float: none;
+      margin: 15px;
+      }
+      /* Makes buttons full width */
+      table[class="button"] {
+      width: 100% !important;
+      }
+      }
+      /* Media queries for when the viewport is narrow. */
+      /* Rules prefixed with 'hh-' (for 'handheld') repeat much of what's above, but these don't trigger until the smaller screen width. */
+      @media screen and (max-device-width: 425px), screen and (max-width: 425px) {
+      /* Helper only visible on handhelds. All styles are inline along with a `display:none`, which this class overrides */
+      div[class="hh-visible"] {
+      display: block !important;
+      }
+      /* Center stuff */
+      div[class="hh-center"] {
+      text-align: center;
+      width: 100% !important;
+      }
+      /* Constrain tables for small screens */
+      table[class="hh-fluid"] {
+      width: 100% !important;
+      }
+      /* Force images to resize to full width of their container */
+      img[class="hh-fluid"],
+      img[class="hh-force-col-center"] {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      }
+      /* And center these ones */
+      img[class="hh-force-col-center"] {
+      margin: auto !important;
+      }
+      /* Force table cells into rows */
+      td[class="hh-force-col"],
+      td[class="hh-force-col-center"] {
+      display: block !important;
+      width: 100% !important;
+      clear: both;
+      }
+      /* And center these ones */
+      td[class="hh-force-col-center"] {
+      text-align: center !important;
+      }
+      /* Stack the previously floated images */
+      img[class="col-3-img-l"],
+      img[class="col-3-img-r"] {
+      float: none !important;
+      margin: 15px auto !important;
+      text-align: center !important;
+      }
+      }
+    </style>
+  </head>
+  <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F8F8F8" style="margin:0; padding:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;">
+
+      <!-- Start Preview Text -->
+    <table width="100%" align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellpadding="0">
+        <tr>
+            <td height="0" style="color:#FFFFFF; font-size:0px; line-height:0px;font-family:Arial, Helvetica, san-serrif;vertical-align:top; white-space:wrap;">Subaru Symmetrical AWD gives drivers control and traction in some of the worst conditions. |
+            </td>
+        </tr>
+    </table>
+    <!-- End Preview Text-->
+
+    <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#F8F8F8" id="bodyTable" style="border-collapse: collapse;table-layout: fixed;margin:0 auto;">
+      <tbody>
+        <tr>
+          <td>
+            <!-- CSS Image background in Outlook : BEGIN -->
+            <!-- Best used with absolute image paths -->
+            <!--[if gte mso 9]>
+            <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+              <v:fill type="tile" color="#f4f4f4" src="assets/nice_snow.png">
+            </v:background>
+            <![endif]-->
+            <!-- CSS Image background in Outlook : END -->
+            <!-- Logo Left, Nav Right, 100% Nav Bar : BEGIN -->
+            <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFF" style="text-align: center;">
+              <tbody>
+                <tr>
+                  <td>
+                    <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" style="margin: auto;" class="email-container">
+                      <tbody>
+                        <tr>
+                          <td height="30" style="font-family: Arial; font-size: 10px; line-height: 22px; font-weight: normal; color: #606060; text-align: center;">Can't see this email? <a href="#" style="font-family: Arial; font-size: 10px; line-height: 22px; font-weight: normal; color: #606060; text-align: center;">Click here to view in a browser.</a>
+                          </td>
+                         </tr>
+                        <tr>
+                          <td height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="hh-force-col-center" valign="middle" style="text-align: center;">
+                            <img src="img/image1.jpg" alt="alt text" height="50" width="82" border="0">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Logo Left, Nav Right, 100% Nav Bar : END -->
+            <!-- Logo Left Nav Right + Vertical Padding : BEGIN -->
+            <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" class="email-container" style="margin: auto; font-family:Arial, san-serif;">
+              <tbody>
+                <tr>
+                  <td height="10" style="font-size: 0; line-height: 0;" bgcolor="#25619d">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td height="30" bgcolor="#25619d">
+                    <div style="text-align:center;font-size: 28px;line-height: 1.2; color:#FFFFFF; font-weight:bold;" class="hh-center">Cras varius consectetur nibh, ut laoreet est</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="10" style="font-size: 0; line-height: 0;" bgcolor="#25619d">&nbsp;</td>
+                </tr>
+                <tr>
+                <td>
+                  <img src="img/image2.jpg" alt="alt text" width="600" border="0" style="display: block;" class="fluid">
+                </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Logo Left Nav Right + Vertical Padding : END -->
+            <!-- Email Container : BEGIN -->
+            <!-- This table wraps the whole body email within it's width (600px), sets the background color (white) and border (thin, gray, solid) -->
+            <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" class="email-container">
+              <!-- Full Width, Fluid Column : BEGIN -->
+              <tr>
+                <td style="border-bottom: 1px solid #e5e5e5;">
+                  <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 30px; font-family: Arial; font-size: 16px; line-height: 22px; color: #606060;">
+                          <b style="color:#25619d">Mauris id odio nec orci porta condimentum sed et felis. Sed laoreet massa ac ligula bibendum vehicula. Nullam eu mollis ante, at congue orci.</b>
+                          <br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec libero arcu. Curabitur non ante lectus. Cras a rhoncus dui. Proin lectus nisi, elementum in tempus ac, lobortis id orci. Morbi convallis blandit fermentum. Curabitur nec feugiat magna, ut pellentesque velit. Praesent rhoncus tortor ac ante rhoncus, in rutrum mauris placerat. Phasellus volutpat mauris et tempus vestibulum. Praesent placerat sollicitudin elit a interdum. Integer eleifend sed est in consectetur. Sed posuere, lorem sit amet facilisis condimentum, orci ligula iaculis lectus, id placerat nisi velit ut tellus. Maecenas molestie sed magna ut commodo. Ut ultricies, diam et luctus tempus, quam sem molestie tellus, vel euismod ligula tortor sit amet eros. Ut nec elit condimentum, scelerisque odio vitae, semper tortor. Mauris nec quam ex. 
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- Full Width, Fluid Column : END -->
+              <!-- Single Fluid Image, No Crop : BEGIN -->
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="img/image3.png" alt="alt text" width="600" border="0" style="display: block;" class="fluid">
+                  </td>
+                </tr>
+                <!-- Single Fluid Image, No Crop : END -->
+                <!-- Three Column ==> Stacked Wide Layout ==> Stacked Narrow Layout : BEGIN -->  
+                <tr bgcolor="#EFEFEF">
+                  <td style="padding: 30px; font-family: Arial; font-size: 20px; color:#514c52;">
+                    <b>Sed pharetra mi elementum in. Fusce tempus sem massa, in finibus ipsum luctus vel.</b> <br /><br />
+                    <table border="0" align="center" cellpadding="0" cellspacing="0" class="columns-container">
+                      <tbody>
+                        <tr>
+                          <td width="160" style="padding-right: 30px;font-family: Arial; font-size: 16px; line-height: 22px;color: #444444;" valign="top" class="force-col">
+                            <a href="#"><img src="img/image4.jpg" alt="alt text" align="center" height="160" width="160" border="0" style="display: block;padding-bottom: 10px;" class="col-3-img-r"></a>
+                            <a href="#" style="color:#444444; font-weight:bold">Estibulum consectetur</a><br>
+                          Etiam accumsan egestas sapien vel tincidunt. Proin gravida erat aliquam.  Fusce tempus sem massa, in finibus ipsum luctus vel. Donec egestas.</td>
+                          <td style="font-size: 0; line-height: 0; display: none;" class="hh-spacer"></td>
+                          <td width="160" style="padding-right: 30px;font-family: Arial; font-size: 16px; line-height: 22px;color: #444444;" valign="top" class="force-col">
+                            <a href="#"><img src="img/image5.jpg" alt="alt text" align="center" height="160" width="160" border="0" style="display: block;padding-bottom: 10px;" class="col-3-img-l"></a><a href="#" style="color:#444444; font-weight:bold">Suspendisse potenti felis pretium</a><br>
+                          Integer sit amet felis tristique, sodales libero id, cursus eros. Maecenas tempor vitae diam et mattis. Phasellus a diam sapien. </td>
+                          <td style="font-size: 0; line-height: 0; display: none;" class="hh-spacer">&nbsp;</td>
+                          <td width="160" style="font-family: sans-serif; font-size: 16px; line-height: 22px;color: #444444;" valign="top" class="force-col">
+                            <img src="img/image6.jpg" alt="alt text" align="center" height="160" width="160" border="0" style="display: block;padding-bottom: 10px;" class="col-3-img-r">
+                            <a href="#" style="color:#444444; font-weight:bold">Maecenas molestie sed magna</a><br>
+                            Aenean fringilla consectetur lorem eget ultricies. Suspendisse potenti. Nulla vel risus ac leo pharetra interdum eu eget urna. 
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <!-- Three Column ==> Stacked Wide Layout ==> Stacked Narrow Layout : END -->
+                <!-- Two Columns, With Padding ==> Stacked Layout : BEGIN -->
+                <tr>
+                  <td style="border-bottom: 1px solid #e5e5e5;padding: 0 30px;">
+                    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" class="fluid">
+                      <tbody>
+                        <tr>
+                          <td height="10" style="font-size: 0; line-height: 0;" class="empty-spacer">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td valign="top" class="hh-force-col" width="100%" style="padding-left: 0;">
+                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="width:100%; font-family: Arial; font-size: 16px; line-height: 22px; color: #606060; text-align: left;">
+                                    <div style="font-size: 24px;line-height: 1; color:#25619d; font-weight:bold;" class="hh-center"><br />Vel lacinia lacus tincidunt eu.</div>
+                                    <br />
+                                    <span style="font-family: Arial; font-size: 18px; line-height: 22px; font-weight: bold; color: #606060; text-align: left;">Suspendisse posuere eget justo tincidunt auctor. Vestibulum sapien est, hendrerit sed eros ac, laoreet lobortis mi. Ut porta imperdiet magna, a dictum nibh. Curabitur eleifend leo ut leo venenatis, ut tristique elit dapibus. Cras ornare leo eu lectus euismod facilisis. Nulla egestas nibh sit amet molestie dapibus. Fusce pulvinar elit ut commodo tristique. Curabitur orci elit, tempus sed cursus eu, consequat eget turpis. </span><br /><br />
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce sit amet justo et neque aliquet feugiat. Nam eu aliquet lectus, quis iaculis sem. Duis at tellus ac sapien vulputate scelerisque. In hac habitasse platea dictumst. Nam maximus nunc sed felis commodo, sed ultrices nulla vulputate. Proin aliquam purus sit amet turpis tincidunt, sed laoreet turpis tincidunt. Integer ac magna vitae neque fermentum egestas ut vel lacus. Fusce ac quam nec magna placerat eleifend eget sed dolor. Duis suscipit risus ipsum, nec aliquet enim iaculis non. Integer consequat ante turpis, at rutrum nunc porta eu. <br /><br />
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat venenatis odio quis laoreet. Mauris suscipit ipsum id lorem maximus commodo. Nam vehicula, nulla non iaculis blandit, lectus mauris varius ante, mattis rutrum nisl est sit amet tortor. Aliquam sed pretium odio. <br /><br />
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;background-color: #1285bc; text-align: center;">
+                                    <a href="#" target="_blank" style="color: #ffffff; font-family: sans-serif; font-size: 15px; line-height: 15px; text-align: center; text-decoration: none; display: block; padding: 15px 20px; border: 1px solid #1285bc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;">
+                                      <b>
+                                        <!--[if mso]>&nbsp;<![endif]-->button<!--[if mso]>&nbsp;<![endif]-->
+                                      </b>
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="30" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <!-- Two Columns, With Padding ==> Stacked Layout : END -->
+                <!-- Full Width, Fluid Column : BEGIN -->
+                <tr>
+                  <td style="border-bottom: 3px solid #333333;border-top: 3px solid #333333;">
+                    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+                      <tbody>
+                        <tr>
+                          <td bgcolor="#232323">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <!-- Full Width, Fluid Column : END -->
+              </tbody>
+            </table>
+            <!-- Email Container : END -->
+            <!-- Logo Left Nav Right + Vertical Padding : BEGIN -->
+            <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" class="email-container" style="margin: auto;">
+              <tbody>
+                <tr>
+                  <td height="50" style="font-family: Arial; font-size: 10px; line-height: 22px; font-weight: normal; color: #606060; text-align: center;"></td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Logo Left Nav Right + Vertical Padding : END -->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
