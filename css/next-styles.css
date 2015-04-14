@@ -666,7 +666,7 @@ ul#port-nav {
     font-family: RobotoDraft, Roboto, Helvetica, Arial, sans-serif
 }
 ul#port-nav li {
-    padding-right: 20px;
+    padding-right: 0px;
     display: inline
 }
 ul#port-nav li a {
