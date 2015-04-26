@@ -569,7 +569,7 @@ body {
     text-align: center
 }
 #dribbble-contact,
-#email-contact,
+#phhhoto,
 #instagram-contact,
 #linkedin-contact,
 #soundcloud-contact,
@@ -580,8 +580,8 @@ body {
     margin-top: 15px;
     float: left
 }
-#email-contact {
-    background: url(img/email.svg) center 2px no-repeat
+#phhhoto {
+    background: url(img/phhhoto.svg) center 2px no-repeat
 }
 #twitter-contact {
     background: url(img/twitter.svg) center 2px no-repeat
