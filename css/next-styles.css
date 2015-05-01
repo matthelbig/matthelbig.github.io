@@ -109,7 +109,7 @@ body {
     margin: 0;
     color: #696969;
     background-color: #fff;
-    font: 16px RobotoDraft, Roboto, Helvetica, Arial, sans-serif;
+    font: 16px Roboto, Helvetica, Arial, sans-serif;
     line-height: 24px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased
@@ -155,9 +155,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: RobotoDraft, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     line-height: 36px;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal
 }
 h2#matt-title {
@@ -171,8 +171,8 @@ h2.about-name {
 blockquote {
     margin: 0;
     padding: 0 0 10px;
-    font: 44px RobotoDraft, Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font: 44px Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #fff
 }
 blockquote span {
@@ -339,7 +339,7 @@ blockquote span {
     display: block;
     max-width: 780px;
     padding: 25px;
-    font: 400 25px/40px RobotoDraft, Roboto, Helvetica, Arial, sans-serif;
+    font: 400 25px/40px Roboto, Helvetica, Arial, sans-serif;
     margin: 0 auto;
     color: #E2E9EF
 }
@@ -359,8 +359,8 @@ blockquote span {
     color: #fff
 }
 div.hero-unit h2 {
-    font-family: RobotoDraft, Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
     margin-top: 25px;
     color: #fff;
     font-size: 1.5em
@@ -560,7 +560,7 @@ body {
     -webkit-text-size-adjust: 100%
 }
 #contact-social li a {
-    font-family: RobotoDraft, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     color: #E2E9EF;
     margin-bottom: 20px;
     display: block;
@@ -663,7 +663,7 @@ ul#port-nav {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: RobotoDraft, Roboto, Helvetica, Arial, sans-serif
+    font-family: Roboto, Helvetica, Arial, sans-serif
 }
 ul#port-nav li {
     padding-right: 0px;
