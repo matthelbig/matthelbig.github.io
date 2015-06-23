@@ -798,6 +798,9 @@ a.home-nav {
     font-weight: 400;
     color: #fff
 }
+
+.about-text {font-size: 18px !important}
+
 }
 @media (max-width: 767px) {
     .span2,
