@@ -790,6 +790,14 @@ a.home-nav {
     a h4.portfolio-title {
         margin-bottom: 60px
     }
+
+    blockquote {
+    margin: 0;
+    padding: 0 0 10px;
+    font: 33px Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #fff
+}
 }
 @media (max-width: 767px) {
     .span2,
