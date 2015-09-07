@@ -141,7 +141,51 @@
         padding-top: 0
     }
 }
-.child{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-animation-name:slide-up;animation-name:slide-up;-webkit-animation-duration:.9s;animation-duration:.9s;-webkit-animation-timing-function:ease;animation-timing-function:ease}.child1{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-animation-name:slide-up;animation-name:slide-up;-webkit-animation-duration:1.1s;animation-duration:1.1s;-webkit-animation-timing-function:ease;animation-timing-function:ease}.child2{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-animation-name:slide-up;animation-name:slide-up;-webkit-animation-duration:1.3s;animation-duration:1.3s;-webkit-animation-timing-function:ease;animation-timing-function:ease}.cd-intro{width:90%;text-align:center;margin:1em auto}
+.child{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-animation-name:slide-up;animation-name:slide-up;-webkit-animation-duration:.9s;animation-duration:.9s;-webkit-animation-timing-function:ease;animation-timing-function:ease}.child1{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-animation-name:slide-up;animation-name:slide-up;-webkit-animation-duration:1.1s;animation-duration:1.1s;-webkit-animation-timing-function:ease;animation-timing-function:ease}.child2{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-animation-name:slide-up;animation-name:slide-up;-webkit-animation-duration:1.3s;animation-duration:1.3s;-webkit-animation-timing-function:ease;animation-timing-function:ease}.cd-intro{width:90%;text-align:center;margin:1em auto}.child100{-webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 1.4s; /* Chrome, Safari, Opera */
+    animation-delay: 1.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }}
 @media only screen and (min-width: 768px) {
     .cd-intro {
         margin: 1em auto
@@ -152,7 +196,10 @@
         margin: 1em auto
     }
 }
-    
+
+#about-matt:hover{-webkit-animation:logo-hop .5s 1;animation:logo-hop .5s 1}
+
+@-webkit-keyframes logo-hop{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}25%{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}50%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}75%{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}100%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@keyframes logo-hop{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}25%{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}50%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}75%{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}100%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
     </style>
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,700,700italic,500italic,900,900italic' rel='stylesheet' type='text/css'>
