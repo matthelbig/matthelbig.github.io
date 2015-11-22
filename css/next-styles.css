@@ -569,7 +569,7 @@ body {
     text-align: center
 }
 #dribbble-contact,
-#phhhoto,
+#phhhoto,#exposure,
 #instagram-contact,
 #linkedin-contact,
 #soundcloud-contact,
@@ -583,6 +583,11 @@ body {
 #phhhoto {
     background: url(img/phhhoto.svg) center 2px no-repeat
 }
+
+#exposure {
+    background: url(img/exposure.svg) center 2px no-repeat
+}
+
 #twitter-contact {
     background: url(img/twitter.svg) center 2px no-repeat
 }
