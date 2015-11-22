@@ -585,7 +585,7 @@ body {
 }
 
 #exposure {
-    background: url(img/exposure.svg) center 2px no-repeat
+    background: url(img/exposure.svg) center -1px no-repeat
 }
 
 #twitter-contact {
