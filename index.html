@@ -217,6 +217,23 @@ img {
 }
 
 @-webkit-keyframes logo-hop{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}25%{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}50%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}75%{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}100%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@keyframes logo-hop{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}25%{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}50%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}75%{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}100%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
+
+
+
+.third-degree {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+    
+    display: inline-block;
+    position: relative;
+    
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9986295347545738, M12=-0.05233595624294383, M21=0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
+    zoom: 1;
+}
+
     </style>
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,700,700italic,500italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -240,15 +257,15 @@ img {
     <div id="about-section"><div class="nav-container">
      <div class="container">
        <div class="row">
-        <div class="span2 child">
+        <div class="span2 child third-degree">
           <div id="about-matt"><img src="css/img/coffee.jpg" style="border-radius: 500px;
  -webkit-border-radius: 500px;
  -moz-border-radius: 500px;"></div>
         </div>
          <div class="span6 child1">
           <div class="row">
-            <div class="span6">
-                <blockquote>Matt Helbig is a full-stack marketer who focuses on driving success for email & rapid growth. <span style="font-family:'Apple Color Emoji'; font-style: normal; color:#fff;">📈</span></blockquote>
+            <div class="span6 third-degree">
+                <blockquote>Matt Helbig is a digitalmarketer who focuses on driving success for email & rapid growth. <span style="font-family:'Apple Color Emoji'; font-style: normal; color:#fff;">📈</span></blockquote>
               </div>
               <div class="span6 child2">
                 <p class="about-text">
@@ -299,7 +316,6 @@ img {
           <a href="http://www.careeradvisor4you.com/"><img src="img/CA4U.jpg"></a>
           </div>
 
-        
 
           <div class="span4 portfolio-title">
           <a href="http://reallygoodemails.com/"><img src="img/reallygoodemails.gif"></a>
