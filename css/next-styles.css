@@ -123,7 +123,7 @@ a {
 }
 a:hover {
     color: #778A97;
-    text-decoration: none
+    text-decoration: none;
 }
 .nav-container {
     padding-top: 50px
@@ -138,11 +138,11 @@ a:hover {
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     color: #D83F38;
-    text-decoration: underline
+    text-decoration: underline;
 }
 #about-section a:hover {
     color: #E2E9EF;
-    text-decoration: none
+    text-decoration: none;
 }
 #port-buy-link a {
     font-weight: 500;
