@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Emma Email Contest Entry | TEDC</title>
+<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+   <!-- YOU ALREADY KNOW IT'S
+
+                 /$$     /$$     /$$       /$$ /$$
+                | $$    | $$    | $$      | $$| $$
+ /$$$$$$/$$$$  /$$$$$$ /$$$$$$  | $$$$$$$ | $$| $$$$$$$   /$$$$$$
+| $$_  $$_  $$|_  $$_/|_  $$_/  | $$__  $$| $$| $$__  $$ /$$__  $$
+| $$ \ $$ \ $$  | $$    | $$    | $$  \ $$| $$| $$  \ $$| $$  \ $$
+| $$ | $$ | $$  | $$ /$$| $$ /$$| $$  | $$| $$| $$  | $$| $$  | $$
+| $$ | $$ | $$  |  $$$$/|  $$$$/| $$  | $$| $$| $$$$$$$/|  $$$$$$$
+|__/ |__/ |__/   \___/   \___/  |__/  |__/|__/|_______/  \____  $$
+                                                         /$$  \ $$
+                                                        |  $$$$$$/
+                                                         \______/
+
+                                                         -->
+
+<!-- Made with Salted since Jason + Kevin are bae. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    body{margin:0; padding:0;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+    /* iOS BLUE LINKS */
+    .appleBody a {color:#68440a; text-decoration: none;}
+    .appleFooter a {color:#999999; text-decoration: none;}
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+        /* ALLOWS FOR FLUID TABLES */
+        table[class="wrapper"]{
+          width:100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        td[class="logo"]{
+          text-align: left;
+          padding: 20px 0 20px 0 !important;
+        }
+
+        td[class="logo"] img{
+          margin:0 auto!important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        td[class="mobile-hide"]{
+          display:none;}
+
+        img[class="mobile-hide"]{
+          display: none !important;
+        }
+
+        img[class="img-max"]{
+          max-width: 100% !important;
+          height:auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        table[class="responsive-table"]{
+          width:100%!important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        td[class="padding"]{
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        td[class="padding-copy"]{
+          padding: 10px 5% 10px 5% !important;
+          text-align: center;
+        }
+
+        td[class="padding-meta"]{
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        td[class="no-pad"]{
+          padding: 0 0 20px 0 !important;
+        }
+
+        td[class="no-padding"]{
+          padding: 0 !important;
+        }
+
+        td[class="section-padding"]{
+          padding: 50px 15px 50px 15px !important;
+        }
+
+        td[class="section-padding-bottom-image"]{
+          padding: 50px 15px 0 15px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        td[class="mobile-wrapper"]{
+            padding: 10px 5% 15px 5% !important;
+        }
+
+        table[class="mobile-button-container"]{
+            margin:0 auto;
+            width:100% !important;
+        }
+
+        a[class="mobile-button"]{
+            width:80% !important;
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+        }
+
+    }
+
+    /* BUTTON GRADIENTS FRONTFLIP FOR STYLE DAMN SON WHERE U FIND THIS*/
+        .btn-a:hover{
+            color: #fff !important;
+            background-color: #000000 !important;
+            text-decoration: none !important;   
+        }
+
+        .btn-a {
+                transition: background 0.25s linear; }
+
+        .buttonGradient {
+                animation: buttonGradient 60s ease infinite;
+                background: linear-gradient(270deg, #1e80dc, #c61590);
+                background-size: 300% 300%; }
+              
+              @keyframes buttonGradient {
+                0% {
+                  background-position: 0% 50%; }
+                50% {
+                  background-position: 100% 50%; }
+                100% {
+                  background-position: 0% 50%; } }
+
+
+/* DAT ANIMATION DOE */
+    .fadeInUp {
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+        animation-duration: 1.2s;
+        -webkit-animation-duration: 1.2s;
+    }
+    @keyframes fadeInUp {
+        0% {opacity: 0;transform: translateY(30px);}
+        40% {opacity: 0;transform: translateY(30px);}
+        100% {opacity: 1;transform: translateY(0);}
+    }
+    @-webkit-keyframes fadeInUp {
+        0% {opacity: 0;-webkit-transform: translateY(30px);}
+        40% {opacity: 0;-webkit-transform: translateY(30px);}
+        100% {opacity: 1;-webkit-transform: translateY(0);}
+    }
+    .fadeInUp2 {
+        animation-name: fadeInUp2;
+        -webkit-animation-name: fadeInUp2;
+        animation-duration: 1.6s;
+        -webkit-animation-duration: 1.6s;
+    }
+    @keyframes fadeInUp2 {
+        0% {opacity: 0;transform: translateY(30px);}
+        50% {opacity: 0;transform: translateY(30px);}
+        100% {opacity: 1;transform: translateY(0);}
+    }
+    @-webkit-keyframes fadeInUp2 {
+        0% {opacity: 0;-webkit-transform: translateY(30px);}
+        50% {opacity: 0;-webkit-transform: translateY(30px);}
+        100% {opacity: 1;-webkit-transform: translateY(0);}
+    }
+    .fadeInUp3 {
+        animation-name: fadeInUp3;
+        -webkit-animation-name: fadeInUp3;
+        animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+    }
+    @keyframes fadeInUp3 {
+        0% {opacity: 0;transform: translateY(30px);}
+        60% {opacity: 0;transform: translateY(30px);}
+        100% {opacity: 1;transform: translateY(0);}
+    }
+    @-webkit-keyframes fadeInUp3 {
+        0% {opacity: 0;-webkit-transform: translateY(30px);}
+        60% {opacity: 0;-webkit-transform: translateY(30px);}
+        100% {opacity: 1;-webkit-transform: translateY(0);}
+    }
+    .fadeInUp4 {
+        animation-name: fadeInUp4;
+        -webkit-animation-name: fadeInUp4;
+        animation-duration: 2.4s;
+        -webkit-animation-duration: 2.4s;
+    }
+    @keyframes fadeInUp4 {
+        0% {opacity: 0;transform: translateY(30px);}
+        66% {opacity: 0;transform: translateY(30px);}
+        100% {opacity: 1;transform: translateY(0);}
+    }
+    @-webkit-keyframes fadeInUp4 {
+        0% {opacity: 0;-webkit-transform: translateY(30px);}
+        66% {opacity: 0;-webkit-transform: translateY(30px);}
+        100% {opacity: 1;-webkit-transform: translateY(0);}
+    }
+
+    .cat-heart {
+    -webkit-animation: beat .5s infinite alternate;
+    -moz-animation: beat .5s infinite alternate;
+    -ms-animation: beat .5s infinite alternate;
+    -o-animation: beat .5s infinite alternate;
+    animation: beat .5s infinite alternate;
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -o-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+}
+ @keyframes "beat" {
+ to {
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+ @-moz-keyframes beat {
+ to {
+ -moz-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+ @-webkit-keyframes "beat" {
+ to {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+ @-ms-keyframes "beat" {
+ to {
+ -ms-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+ @-o-keyframes "beat" {
+ to {
+ -o-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+
+.mobile-button:hover{opacity: .8}
+.video-btn:hover {color: #B14B8A !important;background: #ffffff !important;}
+.img-boston:hover {opacity: 0.7;}
+
+/* SIT AND ROLLOVER */
+
+.rollover:hover > img,
+  * [summary=rollover]:hover > img {
+    max-height: 0px !important;
+  }
+  
+  .rollover:hover > div img,
+  * [summary=rollover]:hover > div img {
+    max-height: none !important;
+  }
+  
+  @media screen and (max-device-width:1024px) {
+    .rollover:hover > img,
+    * [summary=rollover]:hover > img {
+      max-height: none !important;
+    }
+    .rollover:hover > div img,
+    * [summary=rollover]:hover > div img {
+      max-height: 0px !important;
+    }
+  }
+
+</style>
+</head>
+<body style="margin: 0; padding: 0;">
+
+<!-- ONE COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#232323" align="center" style="padding: 70px 15px 70px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <!-- HERO IMAGE -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                             <tr>
+                                                  <td class="padding-copy fadeInUp">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                          <tr>
+                                                              <td>
+                                                                  <a href="http://reallygoodemails.com/newsletter/" target="_blank"><img src="img/spam-never-white.gif" width="500" height="262" border="0" alt="Design Better. Spam Never." style="display: block; padding: 0; color: #666666; text-decoration: none; font-family: 'Karla', arial, sans-serif; font-size: 16px; width: 500px; height: 262px;" class="img-max"></a>
+                                                              </td>
+                                                            </tr>
+                                                        </table>
+                                                  </td>
+                                              </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 25px; font-family: 'Karla', Arial, sans-serif; color: #AAADB3; padding-top: 30px;" class="padding-copy fadeInUp2">Hey, I'm Matt Helbig.</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center"  class="fadeInUp3" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: 'Karla', Arial, sans-serif; color: #D1D1D1;" class="padding-copy">Hello from Chicago 🏙. During the day, I work with a team of mythical beasts at <a href="http://www.digitaslbi.com/" target="_blank" style="text-decoration:underline;color:#D1D1D1;">DigitasLBi</a> doing email, SMS, and direct mail 🦄. At night, I help run <a href="http://reallygoodemails.com/" target="_blank" style="text-decoration:underline;color:#D1D1D1;">Really Good Emails</a>, a collection of great product design emails that come into our inbox 💌. In my free time, you can find me taking <a href="https://www.instagram.com/mtthlbg/" target="_blank" style="text-decoration:underline;color:#D1D1D1;">photos</a> and drinking <a href="https://untappd.com/user/mtthlbg" target="_blank" style="text-decoration:underline;color:#D1D1D1;">crafty drinks</a>.</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!-- RELOADING..... BULLETPROOF BUTTON BANG BANG -->
+                                    <!-- WAIT..... IS THAT BUTTON COLOR ROTATING -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container fadeInUp4">
+                                        <tr>
+                                            <td align="center" style="padding: 25px 0 0 0;" class="padding-copy">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                    <tr>
+                                                        <td align="center">
+
+
+                                                            <!--[if mso]>
+                                                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://twitter.com/mtthlbg style="height:40px;v-text-anchor:middle;width:200px;" arcsize="250%" strokecolor="#9236A7" fillcolor="#9236A7">
+                                                                <w:anchorlock/>
+                                                                <center style="color:#FFFFFF;font-family:sans-serif;font-size:13px;font-weight:bold;">(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ </center>
+                                                              </v:roundrect>
+                                                            <![endif]--><a class="buttonGradient" href="https://twitter.com/mtthlbg" target="_blank"
+                                                            style="background-color:#1e80dc;border-radius:100px;color:#FFFFFF;display:inline-block;font-family:sans-serif;font-size:13px;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;" >(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ </a>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- ONE COLUMN W/ BOTTOM IMAGE SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#B14B8A" align="center" style="padding: 70px 15px 0 15px;" class="section-padding-bottom-image">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 25px; font-family: 'Karla', Arial, sans-serif; color: #AAADB3;" class="padding-copy">Justine Jordan is my spirit animal.</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: 'Karla', Arial, sans-serif; color: #D1D1D1;" class="padding-copy">I just met <a href="https://twitter.com/meladorri" style="text-decoration:underline;color:#D1D1D1;">Justine</a> IRL at <a href="http://marketingunited.com/" target="_blank" style="text-decoration:underline;color:#D1D1D1;">Marketing United 2016</a>. If she hasn't told you in person that "(Y)OUR EMAILS SUCK", I would suggest watching one of her talks. I can't wait to meet the rest of the Litmus team.</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!-- BULLETPROOF BUTTON -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center" style="padding: 25px 0 0 0;" class="padding-copy">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                    <tr>
+                                                        <td align="center">
+<!--[if mso]>
+                                                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="250%" strokecolor="#9236A7" fillcolor="#9236A7">
+                                                                <w:anchorlock/>
+                                                                <center style="color:#FFFFFF;font-family:sans-serif;font-size:13px;font-weight:bold;">Order your NEW Galaxy S7</center>
+                                                              </v:roundrect>
+                                                            <![endif]-->
+
+                                                            <a class="mobile-button cat-heart video-btn" href="http://marketingunited.com/videos-2016/speaker/justine-jordan" target="_blank"
+                                                            style="border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; border-right: 1px solid #ffffff; border-radius:100px;-webkit-border-radius: 100px; -moz-border-radius: 100px;color:#FFFFFF;display:inline-block;font-family:sans-serif;font-size:13px;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;" >😻 WATCH THE VIDEO 😻</a>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!--  BOTTOM IMAGE -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td style="padding: 50px 0 0 0;" align="center">
+                                                <a href="# target="_blank"><img src="img/justine.jpg" width="400" height="" border="0" alt="Justin Jordan" class="img-max" style="display: block; padding: 0; font-family: 'Karla', Arial, sans-serif; color: #666666; width: 400px; height: px;"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- TWO COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#002244" align="center" style="padding: 70px 15px 70px 15px; background: #333333 url(img/boston-back.jpg) center no-repeat; background-size: cover;"" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- TITLE SECTION AND COPY -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                        <tr>
+                                <td align="center" style="font-size: 16px; line-height: 25px; font-family: 'Karla', Arial, sans-serif; color: #ffffff;" class="padding-copy">A email designer's guide to</td>
+                            </tr>
+
+                            <tr>
+                                <td align="center" style="padding: 20px 0 20px 0;font-size: 36px; font-family: 'Karla', Arial, sans-serif; color: #ffffff;" class="padding-copy">Boston (aka Beantown)</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- TWO COLUMNS -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" style="padding: 0;" class="mobile-wrapper">
+                                    <!-- LEFT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                                        <tr>
+                                            <td style="padding: 20px 0 40px 0;">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" bgcolor="#C60C30" valign="middle"><a href="https://foursquare.com/mtthlbg/list/coffee-shops-to-go-to-in-boston" target="_blank"><img src="img/coffee.jpg" width="240" height="130" style="display: block; color: #666666; font-family: 'Karla', arial, sans-serif; font-size: 13px; width: 240px; height: 130px;" alt="Coffee" border="0" class="img-max img-boston"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 15px 0 0 0; font-family: 'Karla', Arial, sans-serif; color: #ffffff; font-size: 20px;" bgcolor="#002244">Coffee Shops and Tea</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 5px 0 0 0; font-family: 'Karla', Arial, sans-serif; color: #ffffff; font-size: 14px; line-height: 20px;" bgcolor="#002244"><span class="appleBody">She was always smiling from the way he made her feel, he was hot and dark and steamy. He made her life have meaning. Coffee, he was coffee.</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- RIGHT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                                        <tr>
+                                            <td style="padding: 20px 0 40px 0;">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" bgcolor="#C60C30" valign="middle"><a href="https://foursquare.com/mtthlbg/list/best-cocktails-in-boston" target="_blank"><img src="img/bar.jpg" width="240" height="130" style="display: block; color: #ffffff; font-family: 'Karla', arial, sans-serif; font-size: 13px; width: 240px; height: 130px;" alt="DRANKS" border="0" class="img-max img-boston" bgcolor="#B14B8A"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 15px 0 0 0; font-family: 'Karla', Arial, sans-serif; color: #ffffff; font-size: 20px;" bgcolor="#002244">Bars and Speakeasies</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 5px 0 0 0; font-family: 'Karla', Arial, sans-serif; color: #ffffff; font-size: 14px; line-height: 20px;" bgcolor="#002244"><span class="appleBody">Always do sober what you said you'd do drunk. That will teach you to keep your mouth shut. — Ernest Hemingway</span></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- TWO COLUMNS -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" style="padding: 0;" class="mobile-wrapper">
+                                    <!-- LEFT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                                        <tr>
+                                            <td style="padding: 20px 0 40px 0;">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" bgcolor="#C60C30" valign="middle"><a href="https://foursquare.com/mtthlbg/list/arts-and-crafts-in-boston" target="_blank"><img src="img/arts.jpg" width="240" height="130" style="display: block; color: #ffffff; font-family: 'Karla', arial, sans-serif; font-size: 13px; width: 240px; height: 130px;" alt="Arts and Crafts" border="0" class="img-max img-boston"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 15px 0 0 0; font-family: 'Karla', Arial, sans-serif; color: #ffffff; font-size: 20px;" bgcolor="#002244">Arts & Culture</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 5px 0 0 0; font-family: 'Karla', Arial, sans-serif; color: #ffffff; font-size: 14px; line-height: 20px;" bgcolor="#002244"><span class="appleBody">Art is the only way to run away without leaving home. — Twyla Tharp</span></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- RIGHT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                                        <tr>
+                                            <td style="padding: 20px 0 40px 0;">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" bgcolor="#C60C30" valign="middle"><a href="https://foursquare.com/mtthlbg/list/best-boston-bites" target="_blank"><img src="img/pizza.jpg" width="240" height="130" style="display: block; color: #ffffff; font-family: 'Karla', arial, sans-serif; font-size: 13px; width: 240px; height: 130px;" alt="Pizza" border="0" class="img-max img-boston"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 15px 0 0 0; font-family: 'Karla', Arial, sans-serif; color: #ffffff; font-size: 20px;" bgcolor="#002244">Food</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 5px 0 0 0; font-family: 'Karla', Arial, sans-serif; color: #ffffff; font-size: 14px; line-height: 20px;" bgcolor="#002244"><span class="appleBody">Yeah relationships are cool, but have you heard of pizza? 🍕🍕🍕</span></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+<!-- ONE COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#1A1819" align="center" style="padding: 70px 15px 70px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 25px; font-family: 'Karla', Arial, sans-serif; color: #AAADB3;" class="padding-copy">EMMA <span style="color:red;">❤️</span> THEIR CUSTOMERS</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: 'Karla', Arial, sans-serif; color: #D1D1D1;" class="padding-copy">
+                                            One of my favorite parts of <a href="http://myemma.com/" target="blank" style="text-decoration:underline;color:#D1D1D1;">Emma</a>'s website is that you can see who their customers are and what kinds of emails they are sending. After seeing <a href="https://twitter.com/scottharrison" target="blank" style="text-decoration:underline;color:#D1D1D1;">Scott Harrison</a> talk now for the second time, <a href="http://myemma.com/customers/charity-water" target="blank" style="text-decoration:underline;color:#D1D1D1;">Charity Water</a> continues to impress me with their mission, storytelling, and strong marketing campaigns.
+
+                                            <br><br>Click below to see my favorite emails. 😉
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+
+                             <tr>
+                                <td>
+                                    <!-- HERO IMAGE -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                             <tr>
+                                                  <td class="padding-copy">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                          <tr>
+                                                              <td style="padding: 30px 0 0 0;">
+                                                                  <a class="rollover" summary="rollover" href="http://reallygoodemails.com/tag/charity-water/" target="_blank"><img src="img/can.jpg" width="500" height="191" border="0" alt="Charity Water" style="display: block; padding: 0; color: #666666; text-decoration: none; font-family: 'Karla', arial, sans-serif; font-size: 16px; width: 500px; height: 191px;" class="img-max"><div style="mso-hide:all;"><img src="img/can.gif" style="display:block;width:100%;max-height:0px;"></div>
+                                                                  </a>
+                                                              </td>
+                                                            </tr>
+                                                        </table>
+                                                  </td>
+                                              </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- FOOTER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td style="padding: 20px 0px 20px 0px;">
+                        <!-- UNSUBSCRIBE COPY -->
+                        <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+                            <tr>
+                                <td align="center" valign="middle" style="font-size: 12px; line-height: 18px; font-family: 'Karla', Arial, sans-serif; color:#666666;">
+                                    <span class="appleFooter" style="color:#666666;">Partyland, USA</span><br>
+                                    <a class="original-only" style="color: #666666; text-decoration: none;">Pls Unsub</a><span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #444444;">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a style="color: #666666; text-decoration: none;">View this baby in your browser</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
