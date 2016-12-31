@@ -209,6 +209,102 @@
     }
 }
 
+
+.footer-link {
+    -webkit-animation: hue-rotation 1s linear 0ms infinite;
+    -moz-animation: hue-rotation 1s linear 0ms infinite;
+    -ms-animation: hue-rotation 1s linear 0ms infinite;
+    -o-animation: hue-rotation 1s linear 0ms infinite;
+    animation: hue-rotation 1s linear 0ms infinite
+}
+
+
+@-webkit-keyframes hue-rotation {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        -o-filter: hue-rotate(0);
+        filter: hue-rotate(0)
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        -o-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg)
+    }
+}
+
+@-moz-keyframes hue-rotation {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        -o-filter: hue-rotate(0);
+        filter: hue-rotate(0)
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        -o-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg)
+    }
+}
+
+@-ms-keyframes hue-rotation {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        -o-filter: hue-rotate(0);
+        filter: hue-rotate(0)
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        -o-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg)
+    }
+}
+
+@-o-keyframes hue-rotation {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        -o-filter: hue-rotate(0);
+        filter: hue-rotate(0)
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        -o-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg)
+    }
+}
+
+@keyframes hue-rotation {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        -o-filter: hue-rotate(0);
+        filter: hue-rotate(0)
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        -o-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg)
+    }
+}
+
+
 #about-matt:hover{-webkit-animation:logo-hop .5s 1;animation:logo-hop .5s 1}
 
 /* fix for IE */
@@ -383,7 +479,7 @@ Drop me a line if your interested in building something together.
       <div class="row" id="footer-row">
         <div class="span2"><a name="project"></a>
           <a id="contact"><h2>Contact</h2></a>
-          <p>Get started building your audience now. The most important email you'll send is the first one. <strong><a href="mailto:matthelbig@me.com">Say hello ☺.</a></strong></p>
+          <p>Get started building your audience now. The most important email you'll send is the first one. <strong><a class="footer-link" href="mailto:matthelbig@me.com">Say hello ☺.</a></strong></p>
         </div>
         <div id="social-icons-container">
           <div class="span1"><a href="http://twitter.com/mtthlbg" id="twitter-contact">Twitter</a></div>
