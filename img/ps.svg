@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#009FD6" x="0" y="0" width="800" height="600"></rect>
+            <g id="playstation" transform="translate(117.000000, 115.000000)" stroke="#FFFFFF" stroke-width="2">
+                <path d="M399.7,124.9 C394.2,115.4 391.1,104.5 391.1,92.8 C391.1,56.9 420.7,27.8 457.2,27.8 C493.7,27.8 523.3,56.9 523.3,92.8 C523.3,128.7 493.7,157.8 457.2,157.8 C442.7,157.8 429.2,153.2 418.3,145.4" id="Shape" fill-rule="nonzero"></path>
+                <ellipse id="Oval" fill-rule="nonzero" cx="456.8" cy="52" rx="18.4" ry="17.2"></ellipse>
+                <polygon id="Shape" fill-rule="nonzero" points="456.8 39.7 468.3 59 446.6 59"></polygon>
+                <ellipse id="Oval" fill-rule="nonzero" cx="416.7" cy="90.7" rx="18.4" ry="17.2"></ellipse>
+                <rect id="Rectangle-path" fill-rule="nonzero" x="407.1" y="80.9" width="19.5" height="18.2"></rect>
+                <ellipse id="Oval" fill-rule="nonzero" cx="499.3" cy="89.7" rx="18.4" ry="17.2"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="499.6" cy="89.1" rx="11.8" ry="12.2"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="459" cy="129.9" rx="18.4" ry="17.2"></ellipse>
+                <path d="M468.3,120.1 L450.1,139.1" id="Shape" fill-rule="nonzero"></path>
+                <path d="M448.8,121.4 L468.3,139.1" id="Shape" fill-rule="nonzero"></path>
+                <path d="M372.1,16.2 L410.2,16.2 C410.2,16.2 412,16.6 416.9,11.3 C421.8,6 474.1,2.9 484.8,13.7 C495.4,24.6 511.4,47.2 511.4,47.2 C511.4,47.2 520.7,63.6 529.6,92.7 C538.5,121.8 557.1,209.2 557.1,209.2 C557.1,209.2 565.1,255.3 564.2,286 C563.3,316.7 559.8,321.9 559.8,321.9 C559.8,321.9 558.5,342.8 531.4,360.5 C504.3,378.2 478.6,360.5 478.6,360.5 C478.6,360.5 457.3,343.2 444.9,311.7 C444.9,311.7 434.3,289.1 426.3,263.3 C418.3,237.6 419.2,240.2 419.2,240.2 C419.2,240.2 415.5,227.2 406.3,225.1 C400.5,223.8 382.3,249.9 335.3,222.4 L243,222.6" id="Shape" fill-rule="nonzero"></path>
+                <path d="M419.5,9.9 L419.5,6.5 C459.9,-9.9 486.1,10.5 486.1,10.5 L486.1,15.3" id="Shape" fill-rule="nonzero"></path>
+                <path d="M405.3,44 C405.3,48.8 401.4,52.7 396.6,52.7 L396.6,52.7 C391.8,52.7 387.9,48.8 387.9,44 L387.9,31.1 C387.9,26.3 391.8,22.4 396.6,22.4 L396.6,22.4 C401.4,22.4 405.3,26.3 405.3,31.1 L405.3,44 Z" id="Shape" fill-rule="nonzero"></path>
+                <ellipse id="Oval" fill-rule="nonzero" cx="373.1" cy="165.5" rx="49.9" ry="48.1"></ellipse>
+                <circle id="Oval" fill-rule="nonzero" cx="373.4" cy="159.1" r="32.2"></circle>
+                <circle id="Oval" fill-rule="nonzero" cx="373.8" cy="157.6" r="21.6"></circle>
+                <path d="M165.2,124.9 C170.7,115.4 173.8,104.5 173.8,92.8 C173.8,56.9 144.2,27.8 107.7,27.8 C71.2,27.8 41.6,56.9 41.6,92.8 C41.6,128.7 71.2,157.8 107.7,157.8 C122.2,157.8 135.7,153.2 146.6,145.4" id="Shape"></path>
+                <path d="M192.8,16.2 L154.7,16.2 C154.7,16.2 152.9,16.6 148,11.3 C143.1,6 90.8,2.9 80.1,13.7 C69.4,24.5 53.5,47.2 53.5,47.2 C53.5,47.2 44.2,63.6 35.3,92.7 C26.4,121.8 7.8,209.2 7.8,209.2 C7.8,209.2 -0.2,255.3 0.7,286 C1.6,316.6 5.1,321.9 5.1,321.9 C5.1,321.9 6.4,342.8 33.5,360.5 C60.6,378.2 86.3,360.5 86.3,360.5 C86.3,360.5 107.6,343.2 120,311.7 C120,311.7 130.6,289.1 138.6,263.3 C146.6,237.6 145.7,240.2 145.7,240.2 C145.7,240.2 149.4,227.2 158.6,225.1 C164.4,223.8 182.6,249.9 229.6,222.4 L321.9,222.6" id="Shape"></path>
+                <path d="M145.5,9.9 L145.5,6.5 C105.1,-9.9 78.9,10.5 78.9,10.5 L78.9,15.3" id="Shape"></path>
+                <path d="M159.7,44 C159.7,48.8 163.6,52.7 168.4,52.7 L168.4,52.7 C173.2,52.7 177.1,48.8 177.1,44 L177.1,31.1 C177.1,26.3 173.2,22.4 168.4,22.4 L168.4,22.4 C163.6,22.4 159.7,26.3 159.7,31.1 L159.7,44 Z" id="Shape" fill-rule="nonzero"></path>
+                <ellipse id="Oval" fill-rule="nonzero" cx="191.9" cy="165.5" rx="49.9" ry="48.1"></ellipse>
+                <circle id="Oval" fill-rule="nonzero" cx="191.6" cy="159.1" r="32.2"></circle>
+                <circle id="Oval" fill-rule="nonzero" cx="191.2" cy="157.6" r="21.6"></circle>
+                <path d="M200.4,112.7 L366.8,112.7 C377.9,107.6 376.1,98.3 376.1,98.3 L376.1,33.3 L376.1,22.4 C376.2,19.1 373.8,18.4 373.8,18.4 C373.8,18.4 372.5,15.7 370.1,15.2 L218.7,15.2" id="Shape" fill-rule="nonzero"></path>
+                <path d="M364.6,112.7 L198.3,112.7 C187.2,107.6 189,98.3 189,98.3 L189,33.3 L189,22.4 C188.9,19.1 191.3,18.4 191.3,18.4 C191.3,18.4 192.6,15.7 195,15.2 L346.4,15.2" id="Shape" fill-rule="nonzero"></path>
+                <ellipse id="Oval" fill-rule="nonzero" cx="302.4" cy="125.1" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="297.7" cy="132.4" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="292.7" cy="140.2" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="287.3" cy="132.4" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="292.7" cy="125.1" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="282.1" cy="140.2" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="276.6" cy="132.4" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="282.1" cy="125.1" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="266.7" cy="132.4" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="272.2" cy="125.1" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="262" cy="125.1" rx="2" ry="2.1"></ellipse>
+                <ellipse id="Oval" fill-rule="nonzero" cx="271.4" cy="140.2" rx="2" ry="2.1"></ellipse>
+                <circle id="Oval" fill-rule="nonzero" cx="282.1" cy="172.3" r="14.5"></circle>
+                <ellipse id="Oval" fill-rule="nonzero" cx="300.8" cy="215.3" rx="6.5" ry="2.6"></ellipse>
+                <path d="M285.4,215 L260.2,215" id="Shape" fill-rule="nonzero"></path>
+                <path d="M103.2,85.5 L94,73.6 C94,73.6 91.8,71.3 91.8,67.8 L91.8,55.5 C91.8,55.5 91.2,49.6 98.8,48.7 L112.2,48.7 C119.8,49.6 119.2,55.5 119.2,55.5 L119.2,67.8 C119.2,71.4 117,73.6 117,73.6 L107.8,85.5 C107.7,85.5 105.2,87.2 103.2,85.5 Z" id="Shape" fill-rule="nonzero"></path>
+                <path d="M107.7,99.4 L116.9,111.3 C116.9,111.3 119.1,113.6 119.1,117.1 L119.1,129.4 C119.1,129.4 119.7,135.3 112.1,136.2 L98.7,136.2 C91.1,135.3 91.7,129.4 91.7,129.4 L91.7,117.1 C91.7,113.6 93.9,111.3 93.9,111.3 L103.1,99.4 C103.2,99.4 105.8,97.7 107.7,99.4 Z" id="Shape" fill-rule="nonzero"></path>
+                <path d="M98.1,94.7 L86.2,103.9 C86.2,103.9 83.9,106.1 80.4,106.1 L68.1,106.1 C68.1,106.1 62.2,106.7 61.3,99.1 L61.3,85.7 C62.2,78.1 68.1,78.7 68.1,78.7 L80.4,78.7 C83.9,78.7 86.2,80.9 86.2,80.9 L98.1,90.1 C98.1,90.1 99.8,92.7 98.1,94.7 Z" id="Shape" fill-rule="nonzero"></path>
+                <path d="M113.4,90.1 L125.3,80.9 C125.3,80.9 127.6,78.7 131.1,78.7 L143.4,78.7 C143.4,78.7 149.3,78.1 150.2,85.7 L150.2,99.1 C149.3,106.7 143.4,106.1 143.4,106.1 L131.1,106.1 C127.6,106.1 125.3,103.9 125.3,103.9 L113.4,94.7 C113.4,94.7 111.7,92.1 113.4,90.1 Z" id="Shape" fill-rule="nonzero"></path>
+                <polygon id="Shape" fill-rule="nonzero" points="97.9 42.4 114.8 42.4 106.4 34.6"></polygon>
+                <polygon id="Shape" fill-rule="nonzero" points="114.9 143.1 97.9 143.1 106.4 150.9"></polygon>
+                <polygon id="Shape" fill-rule="nonzero" points="54.7 101.3 54.7 84.3 46.9 92.8"></polygon>
+                <polygon id="Shape" fill-rule="nonzero" points="158 84.2 158 101.2 165.9 92.7"></polygon>
+                <path d="M452.8,328.5 C452.8,328.5 519.9,360.1 564.2,280.3" id="Shape" fill-rule="nonzero"></path>
+                <path d="M111.7,329.8 C111.7,329.8 44.6,361.4 0.3,281.6" id="Shape" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
