@@ -573,7 +573,7 @@ body {
 #instagram-contact,
 #linkedin-contact,
 #soundcloud-contact,
-#twitter-contact {
+#twitter-contact,#unsplash {
     padding-top: 60px;
     width: 90px;
     text-align: center;
@@ -582,6 +582,10 @@ body {
 }
 #phhhoto {
     background: url(img/phhhoto.svg) center 2px no-repeat
+}
+
+#unsplash {
+    background: url(img/unsplash.svg) center -1px no-repeat
 }
 
 #exposure {
@@ -2724,6 +2728,17 @@ a.home-nav {
     -o-transform: scale(1.04);
     transform: scale(1.04)}
 #exposure:hover {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    transform: scale(1.04)}
+
+    #unsplash:hover {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
