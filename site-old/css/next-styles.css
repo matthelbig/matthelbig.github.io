@@ -201,7 +201,7 @@ blockquote span {
 .container,
 .navbar-fixed-bottom .container,
 .navbar-fixed-top .container {
-    width: 1000px
+    width: 1000px;
 }
 .span8 {
     width: 1000px;
